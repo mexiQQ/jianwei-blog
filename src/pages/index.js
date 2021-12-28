@@ -24,7 +24,7 @@ const IndexPage = () => {
       <div className="bg-black	h-12 text-white">
         <div className="max-w-screen-md max-w-screen-lg mx-auto px-5">
           <div className="h-12 flex flex-row flex-wrap content-center items-baseline">
-            <div className="mr-5 font-bold">Zhiqiang Shen</div>
+            <div className="mr-5 font-bold">XXXXXXX XXX</div>
             <div className="mr-5 text-sm text-gray-300">
               <a href="#publications">Publications</a>
             </div>
@@ -37,7 +37,7 @@ const IndexPage = () => {
 
           <div className="flex flex-row ">
             <div className="">
-              <img className="w-60" src="http://zhiqiangshen.com/me2.JPG"></img>
+              <img className="w-60" src="https://stycj1ftsgu3402131mt29kl-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/C006T000263-Infographic-02-moffett.png"></img>
             </div>
             <div className="flex-1 ml-3 font-semibold text-sm">
               <p>
