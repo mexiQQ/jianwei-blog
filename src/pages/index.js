@@ -24,11 +24,13 @@ const IndexPage = () => {
       <div className="bg-black	h-12 text-white">
         <div className="max-w-screen-md max-w-screen-lg mx-auto px-5">
           <div className="h-12 flex flex-row flex-wrap content-center items-baseline">
-            <div className="mr-5 font-bold">XXXXXXX XXX</div>
+            <div className="mr-5 font-bold">Jianwei Li</div>
+            <div className="mr-5 text-sm text-gray-300">
+              <a href="#news">Publications</a>
+            </div>
             <div className="mr-5 text-sm text-gray-300">
               <a href="#publications">Publications</a>
             </div>
-            <div className="mr-5 text-sm text-gray-300">Group</div>
           </div>
         </div>
       </div>
@@ -37,36 +39,37 @@ const IndexPage = () => {
 
           <div className="flex flex-row ">
             <div className="">
-              <img className="w-60" src="https://stycj1ftsgu3402131mt29kl-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/C006T000263-Infographic-02-moffett.png"></img>
+              <img className="w-60" src="https://img.xiaodiqiu.cn/personal/jianwei.jpg"></img>
             </div>
             <div className="flex-1 ml-3 font-semibold text-sm">
               <p>
-              I am currently a research associate fellow in Professor Eric Xing's lab as a group research lead. I was a postdoctoral researcher in Professor Marios Savvides's lab at CyLab, CMU, taking charge of ALL research-related projects in the lab (2019-2021). My research interests span machine learning, computer vision, efficient deep learning, etc. Prior to CMU, I was fortunate to be a joint-training Ph.D student (2017-2019) in UIUC/IFP group, advised by Prof. Thomas S. Huang.
+                Hi! I am currently a machine learning scientist in <a className="text-blue-400" href="https://moffett.ai/">Moffett.AI</a>, advised by the chief scientist and co-founder of Moffett.AI: <a className="text-blue-400" href="http://ianyen.site/">Ian En-Hsu Yen</a>. Before that, I got my master degree from the CS department of San Jose State University in 2021, and advised by the <a className="text-blue-400" href="http://www.cs.sjsu.edu/~stamp/cv/mss.html">Prfo. Mark Stamp</a>.
+              </p>
+              <p className="mt-3 text-red-600">
+                I am also actively looking for the phd opportunities in the area of Artificial Intellgence, especially the directions of Efficent AI and Generative models.
               </p>
               <p className="mt-3">
-              I am an incoming Research Assistant Professor in the Department of Computer Science and Engineering (CSE) at HKUST, as well as the IAS Junior Fellow from the Institute for Advanced Study of HKUST early 2022.
+              Please send me your CV if you are interested in working with me at Moffett.AI (We plan to expand our research team in USA). <p className="underline text-red-600">Please also directly contact me on linkedin: <a href="https://www.linkedin.com/in/fourteenljw">https://www.linkedin.com/in/fourteenljw</a></p>
               </p>
-              <p className="text-red-600">
-              Please send me your CV if you are interested in working with me at HKUST (I plan to take a few visiting students with good research experience and background for collaborations remotely). <p className="underline">Please also refrain from emailing me (unless you're really interested in my research topics), too many inquiries will make me hard to reply to all of them.</p>
-              </p>
-              <p className="mt-2 text-gray-400">Department of Electrical and Computer Engineering, Carnegie Mellon University</p>
+              <p className="mt-2 text-gray-400">Compressor Team at Moffett AI.</p>
             </div>
           </div>
 
           <div className="mt-5 text-xs text-gray-600">
-            <div>5000 Forbes Avenue, Pittsburgh, PA, 15213</div>
-            <div>Email: zhiqiangshen0214 AT gmail.com | zhiqians AT andrew.cmu.edu</div>
-            <div>shen54 AT illinois.edu | zhiqiangshen13 AT fudan.edu.cn</div>
+            <div>Address: 949 Sherwood Ave, Suite 200 Los Altos, CA 94022</div>
+            <div>Email: ljw040426 AT gmail.com | jianwei.li AT moffett.ai</div>
+            <div>Tel: (650) 209-5845</div>
           </div>
 
-          <div className="mt-12">
+          <div className="mt-6">
             <div className="text-blue-800	text-xl font-bold">Research Interest</div>
-            <p className="text-sm">My research focuses on the broad areas of machine learning, deep learning and their applications on computer vision and language. Specifically, I am interested in deep learning methods for object detection, fine-grained recognition, image/video captioning, domain adaptation, etc. Recently, I focus on</p>
+            <p className="text-sm">My research focuses on the broad areas of machine learning, deep learning and their applications on computer vision and language. Specifically, I am interested in deep learning methods for efficent learning, multi-modal learning, and generative models, etc. Recently, I focus on</p>
             <div className="text-sm pl-10 py-3">
               <ul className="list-disc">
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
+                <li>Wang Zhe Rong Yao (it's pinyin)</li>
+                <li>Age of empires 4</li>
+                <li>Genshin Impact</li>
+                <li>Food</li>
               </ul>
             </div>
           </div>
@@ -75,10 +78,9 @@ const IndexPage = () => {
             <div className="text-blue-800	text-xl font-bold">News</div>
             <div className="text-sm pl-10 py-3">
               <ul className="list-disc">
-                <li>[Dec 13, 2021] New: I will give a talk/lecture on 2d3d.ai invited by Peter Naftaliev to systematically introduce our recent works on Knowledge Distillation. Please join us if you are interested in this topic. More details will be available soon.</li>
-                <li>[Dec 1, 2021] Two papers accepted to AAAI 2022.</li>
-                <li>[Oct 31, 2021] One paper accepted to NeurIPS 2021, AI for Science workshop, one paper accepted to ICCV 2021, one paper accepted to ACM MM 2021 (Oral), and one paper accepted to TIP 2021.
-                </li>
+                <li>[Dec 13, 2021] Slept 24 hours.</li>
+                <li>[Dec 1, 2021] Eaten 100 tons of food.</li>
+                <li>[Oct 31, 2021] stay up all night  </li>
               </ul>
             </div>
           </div>
@@ -91,16 +93,44 @@ const IndexPage = () => {
                   <img className="w-36" src="http://zhiqiangshen.com/projects/FKD/FKD.png"></img>
                 </div>
                 <div className="ml-5">
-                  <div>Zhiqiang Shen, Eric Xing.</div>
-                  <div className="font-bold">A Fast Knowledge Distillation Framework for Visual Recognition</div>
-                  <div>Technical report.</div>
+                  <div>Jianwei Li.</div>
+                  <div className="font-bold">None</div>
+                  <div>None.</div>
+                  <div>Project Page  |  Code & Models  |  arXiv Paper</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="py-3">
+              <div className="flex flex-row flex-wrap items-center">
+                <div>
+                  <img className="w-36" src="http://zhiqiangshen.com/projects/FKD/FKD.png"></img>
+                </div>
+                <div className="ml-5">
+                  <div>Jianwei Li.</div>
+                  <div className="font-bold">None</div>
+                  <div>None.</div>
+                  <div>Project Page  |  Code & Models  |  arXiv Paper</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="py-3">
+              <div className="flex flex-row flex-wrap items-center">
+                <div>
+                  <img className="w-36" src="http://zhiqiangshen.com/projects/FKD/FKD.png"></img>
+                </div>
+                <div className="ml-5">
+                  <div>Jianwei Li.</div>
+                  <div className="font-bold">None</div>
+                  <div>None.</div>
                   <div>Project Page  |  Code & Models  |  arXiv Paper</div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <div className="text-blue-800	text-xl font-bold">Academic Activities</div>
             <div className="text-sm pl-10 py-3">
               <ul className="list-disc">
@@ -139,12 +169,12 @@ const IndexPage = () => {
                 <li>2015.9- 2016.1, Fudan University, COMP120008.02, C++ language programming</li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="h-48 bg-gray-200 text-center pt-16 text-sm text-gray-500">
-          <div>© 2021 Zhiqiang Shen. All rights reserved</div>
-          <div>(Last update: May 9, 2021.)</div>
+          <div>© 2021 jianwei.li All rights reserved</div>
+          <div>(Last update: Sep 9, 2022.)</div>
         </div>
       </div>
     </main>
