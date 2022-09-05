@@ -21,12 +21,12 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <div className="bg-black	h-12 text-white">
+      <div className="bg-black h-16 text-white">
         <div className="max-w-screen-md max-w-screen-lg mx-auto px-5">
-          <div className="h-12 flex flex-row flex-wrap content-center items-baseline">
+          <div className="h-16 flex flex-row flex-wrap content-center items-baseline">
             <div className="mr-5 font-bold">Jianwei Li</div>
             <div className="mr-5 text-sm text-gray-300">
-              <a href="#news">Publications</a>
+              <a href="#news">News</a>
             </div>
             <div className="mr-5 text-sm text-gray-300">
               <a href="#publications">Publications</a>
@@ -35,11 +35,11 @@ const IndexPage = () => {
         </div>
       </div>
       <div>
-        <div className="max-w-screen-md max-w-screen-lg mx-auto px-5 py-16">
+        <div className="max-w-screen-md max-w-screen-lg mx-auto px-5 py-10">
 
           <div className="flex flex-row ">
             <div className="">
-              <img className="w-60" src="https://img.xiaodiqiu.cn/personal/jianwei.jpg"></img>
+              <img className="w-60" src="https://github.com/mexiQQ/jianwei-blog/blob/main/src/images/jianwei.jpg?raw=true"></img>
             </div>
             <div className="flex-1 ml-3 font-semibold text-sm">
               <p>
@@ -48,7 +48,7 @@ const IndexPage = () => {
               <p className="mt-3 text-red-600">
                 I am also actively looking for the phd opportunities in the area of Artificial Intellgence, especially the directions of Efficent AI and Generative models.
               </p>
-              <p className="mt-3">
+              <p className="mt-8">
               Please send me your CV if you are interested in working with me at Moffett.AI (We plan to expand our research team in USA). <p className="underline text-red-600">Please also directly contact me on linkedin: <a href="https://www.linkedin.com/in/fourteenljw">https://www.linkedin.com/in/fourteenljw</a></p>
               </p>
               <p className="mt-2 text-gray-400">Compressor Team at Moffett AI.</p>
@@ -172,8 +172,8 @@ const IndexPage = () => {
           </div> */}
         </div>
 
-        <div className="h-48 bg-gray-200 text-center pt-16 text-sm text-gray-500">
-          <div>© 2021 jianwei.li All rights reserved</div>
+        <div className="text-center py-10 text-sm text-gray-500" style={{background:"#f5f5f5"}}>
+          <div>© 2022 jianwei.li All rights reserved</div>
           <div>(Last update: Sep 9, 2022.)</div>
         </div>
       </div>
