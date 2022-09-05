@@ -49,8 +49,9 @@ const IndexPage = () => {
                 I am also actively looking for the phd opportunities in the area of Artificial Intellgence, especially the directions of Efficent AI and Generative models.
               </p>
               <p className="mt-8">
-              Please send me your CV if you are interested in working with me at Moffett.AI (We plan to expand our research team in USA). <p className="underline text-red-600">Please also directly contact me on linkedin: <a href="https://www.linkedin.com/in/fourteenljw">https://www.linkedin.com/in/fourteenljw</a></p>
+                Please send me your CV if you are interested in working with me at Moffett.AI (We plan to expand our research team in USA).
               </p>
+              <p className="underline text-red-600">Please also directly contact me on linkedin: <a href="https://www.linkedin.com/in/fourteenljw">https://www.linkedin.com/in/fourteenljw</a></p>
               <p className="mt-2 text-gray-400">Compressor Team at Moffett AI.</p>
             </div>
           </div>
