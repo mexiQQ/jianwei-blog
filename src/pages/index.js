@@ -58,7 +58,7 @@ const IndexPage = () => {
 
           <div className="mt-5 text-xs text-gray-600">
             <div>Address: 949 Sherwood Ave, Suite 200 Los Altos, CA 94022</div>
-            <div>Email: ljw040426 AT gmail.com | jianwei.li AT moffett.ai</div>
+            <div>Email: ljw040426 AT gmail DOT com | jianwei.li AT moffett DOT ai</div>
             <div>Tel: (650) 209-5845</div>
           </div>
 
