@@ -64,11 +64,9 @@ const IndexPage = () => {
 
           <div className="mt-6">
             <div className="text-blue-800	text-xl font-bold">Research Interest</div>
-            <p className="text-sm">My research focuses on the broad areas of machine learning, deep learning and their applications on computer vision and language. Specifically, I am interested in deep learning methods for efficent learning, multi-modal learning, and generative models, etc. Recently, I focus on</p>
+            <p className="text-sm">My research focuses on the broad areas of machine learning, deep learning and their applications on computer vision and language. Specifically, I am interested in deep learning methods for efficent learning, multi-modal learning, and generative models, etc. Recently, I also focus on</p>
             <div className="text-sm pl-10 py-3">
               <ul className="list-disc">
-                <li>Wang Zhe Rong Yao (it's pinyin)</li>
-                <li>Age of empires 4</li>
                 <li>Genshin Impact</li>
                 <li>Food</li>
               </ul>
@@ -79,25 +77,40 @@ const IndexPage = () => {
             <div className="text-blue-800	text-xl font-bold">News</div>
             <div className="text-sm pl-10 py-3">
               <ul className="list-disc">
-                <li>[Dec 13, 2021] Slept 24 hours.</li>
-                <li>[Dec 1, 2021] Eaten 100 tons of food.</li>
-                <li>[Oct 31, 2021] stay up all night  </li>
+                <li>[Oct 3, 2022] Publicity Chair of Workshop DCAA@2023.</li>
+                <li>[Sep 13, 2022] Participate in AI Hardware Summit 2022.</li>
+                <li>[Sep 7, 2022] Moffett S30 Accelerator wins MLPerf V2.1</li>
               </ul>
             </div>
           </div>
 
           <div id="publications">
             <div className="text-blue-800	text-xl font-bold">Recent Publications</div>
+            
             <div className="py-3">
               <div className="flex flex-row flex-wrap items-center">
                 <div>
-                  <img className="w-36" src="http://zhiqiangshen.com/projects/FKD/FKD.png"></img>
+                  <img className="w-36" src="https://www.researchgate.net/publication/353284730/figure/fig3/AS:1046036927762433@1626406046406/Architecture-of-CNN-RNN-for-free-text-datasets_W640.jpg"></img>
                 </div>
                 <div className="ml-5">
-                  <div>Jianwei Li.</div>
-                  <div className="font-bold">None</div>
-                  <div>None.</div>
-                  <div>Project Page  |  Code & Models  |  arXiv Paper</div>
+                  <div>Jianwei Li, Han-Chih Chang, Mark Stamp</div>
+                  <div className="font-bold">Free-Text Keystroke Dynamics for User Authentication</div>
+                  <div>In book: Cybersecurity for Artificial Intelligence</div>
+                  <div>arXiv Paper</div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="py-3">
+              <div className="flex flex-row flex-wrap items-center">
+                <div>
+                  <img className="w-36" src="https://www.researchgate.net/publication/353284266/figure/fig1/AS:1046035430383616@1626405689042/Accuracy-for-different-users_W640.jpg"></img>
+                </div>
+                <div className="ml-5">
+                  <div>Han-Chih Chang, Jianwei Li, Mark Stamp</div>
+                  <div className="font-bold">Machine Learning-Based Analysis of Free-Text Keystroke Dynamics</div>
+                  <div>In book: Cybersecurity for Artificial Intelligence</div>
+                  <div>arXiv Paper</div>
                 </div>
               </div>
             </div>
@@ -105,31 +118,45 @@ const IndexPage = () => {
             <div className="py-3">
               <div className="flex flex-row flex-wrap items-center">
                 <div>
-                  <img className="w-36" src="http://zhiqiangshen.com/projects/FKD/FKD.png"></img>
+                  <img className="w-36" src="https://www.researchgate.net/publication/353056557/figure/fig3/AS:1043087363174401@1625702815525/T-SNE-of-features-of-seven-subjects_W640.jpg"></img>
                 </div>
                 <div className="ml-5">
-                  <div>Jianwei Li.</div>
-                  <div className="font-bold">None</div>
-                  <div>None.</div>
-                  <div>Project Page  |  Code & Models  |  arXiv Paper</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="py-3">
-              <div className="flex flex-row flex-wrap items-center">
-                <div>
-                  <img className="w-36" src="http://zhiqiangshen.com/projects/FKD/FKD.png"></img>
-                </div>
-                <div className="ml-5">
-                  <div>Jianwei Li.</div>
-                  <div className="font-bold">None</div>
-                  <div>None.</div>
-                  <div>Project Page  |  Code & Models  |  arXiv Paper</div>
+                  <div>Han-Chih Chang*, Jianwei Li*, Ching-Seh Wu, Mark Stamp</div>
+                  <div className="font-bold">Machine Learning and Deep Learning for Fixed-Text Keystroke Dynamics</div>
+                  <div>In book: Cybersecurity for Artificial Intelligence</div>
+                  <div>arXiv Paper</div>
                 </div>
               </div>
             </div>
           </div>
+
+          <div className="py-3">
+              <div className="flex flex-row flex-wrap items-center">
+                <div>
+                  <img className="w-36" src="https://production-media.paperswithcode.com/tasks/Screenshot_2019-11-22_at_20.47.26_NEuBvdP.png"></img>
+                </div>
+                <div className="ml-5 flex-1">
+                  <div>Yan Pang, Ai Shan, Zhen Wang, Mengyu Wang, Jianwei Li, Ji Zhang,Teng Huang, Chao Liu</div>
+                  <div className="font-bold">Sparse‐Dyn: Sparse dynamic graph multirepresentation learning via event‐based sparse temporal attention network</div>
+                  <div>International Journal of Intelligent Systems</div>
+                  <div>Paper</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="py-3">
+              <div className="flex flex-row flex-wrap items-center">
+                <div>
+                  <img className="w-36" src="https://theaisummer.com/static/7b065b7c80568aff60f16267b6bbab17/ee604/gnn-architectures.png"></img>
+                </div>
+                <div className="ml-5 flex-1">
+                  <div>Yan Pang, Teng Huang, Zhen Wang, Jianwei Li, Poorya Hosseini, Ji Zhang, Chao Liu</div>
+                  <div className="font-bold">Graph Decipher: A transparent dual-attention graph neural network to understand the message-passing mechanism for the node classification</div>
+                  <div>International Journal of Intelligent Systems</div>
+                  <div>Paper</div>
+                </div>
+              </div>
+            </div>
 
           {/* <div>
             <div className="text-blue-800	text-xl font-bold">Academic Activities</div>
