@@ -86,7 +86,77 @@ const IndexPage = () => {
 
           <div id="publications">
             <div className="text-blue-800	text-xl font-bold">Recent Publications</div>
-            
+
+            <div className="py-3">
+              <div className="flex flex-row flex-wrap items-center">
+                <div>
+                  <img className="w-36" src="https://production-media.paperswithcode.com/tasks/Screenshot_2019-11-22_at_20.47.26_NEuBvdP.png"></img>
+                </div>
+                <div className="ml-5 flex-1">
+                  <div>Jianwei Li, Qi Lei, Wei Cheng, Dongkuan Xu</div>
+                  <div className="font-bold">Towards Robust Pruning: An Adaptive Knowledge-Retention Pruning Strategy for Language Models</div>
+                  <div>EMNLP 2023</div>
+                  <div>Main Paper</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="py-3">
+              <div className="flex flex-row flex-wrap items-center">
+                <div>
+                  <img className="w-36" src="https://production-media.paperswithcode.com/tasks/Screenshot_2019-11-22_at_20.47.26_NEuBvdP.png"></img>
+                </div>
+                <div className="ml-5 flex-1">
+                  <div>Jianwei Li, Weizhi Gao, Qi Lei, Dongkuan Xu</div>
+                  <div className="font-bold">Breaking through Deterministic Barriers: Randomized Pruning Mask Generation and Selection</div>
+                  <div>EMNLP 2023</div>
+                  <div>Findings</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="py-3">
+              <div className="flex flex-row flex-wrap items-center">
+                <div>
+                  <img className="w-36" src="https://production-media.paperswithcode.com/tasks/Screenshot_2019-11-22_at_20.47.26_NEuBvdP.png"></img>
+                </div>
+                <div className="ml-5 flex-1">
+                  <div>Jianwei Li, Sheng Liu, Qi Lei</div>
+                  <div className="font-bold">Beyond Gradient and Priors in Privacy Attacks: Leveraging Pooler Layer Inputs of Language Models in Federated Learning</div>
+                  <div>FL@FM-NeurIPS 2023</div>
+                  <div>Workshop Oral</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="py-3">
+              <div className="flex flex-row flex-wrap items-center">
+                <div>
+                  <img className="w-36" src="https://www.researchgate.net/publication/353284730/figure/fig3/AS:1046036927762433@1626406046406/Architecture-of-CNN-RNN-for-free-text-datasets_W640.jpg"></img>
+                </div>
+                <div className="ml-5">
+                  <div>Shuya Li, Hao Mei, Jianwei Li, Hua Wei, Dongkuan Xu</div>
+                  <div className="font-bold">Toward Efficient Traffic Signal Control: Smaller Network Can Do More</div>
+                  <div>CDC 2023</div>
+                  <div>Main Paper</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="py-3">
+              <div className="flex flex-row flex-wrap items-center">
+                <div>
+                  <img className="w-36" src="https://www.researchgate.net/publication/353284730/figure/fig3/AS:1046036927762433@1626406046406/Architecture-of-CNN-RNN-for-free-text-datasets_W640.jpg"></img>
+                </div>
+                <div className="ml-5">
+                  <div>Jianwei Li, Tianchi Zhang, Ian En-Hsu Yen, Dongkuan Xu</div>
+                  <div className="font-bold">FP8-BERT: Post-Training Quantization for Transformer</div>
+                  <div>DCAA@AAAI 2023</div>
+                  <div>Workshop Paper</div>
+                </div>
+              </div>
+            </div>
+
             <div className="py-3">
               <div className="flex flex-row flex-wrap items-center">
                 <div>
@@ -95,8 +165,8 @@ const IndexPage = () => {
                 <div className="ml-5">
                   <div>Jianwei Li, Han-Chih Chang, Mark Stamp</div>
                   <div className="font-bold">Free-Text Keystroke Dynamics for User Authentication</div>
-                  <div>In book: Cybersecurity for Artificial Intelligence</div>
-                  <div>arXiv Paper</div>
+                  <div>Cybersecurity for Artificial Intelligence</div>
+                  <div>Paper</div>
                 </div>
               </div>
             </div>
@@ -109,8 +179,8 @@ const IndexPage = () => {
                 <div className="ml-5">
                   <div>Han-Chih Chang, Jianwei Li, Mark Stamp</div>
                   <div className="font-bold">Machine Learning-Based Analysis of Free-Text Keystroke Dynamics</div>
-                  <div>In book: Cybersecurity for Artificial Intelligence</div>
-                  <div>arXiv Paper</div>
+                  <div>Cybersecurity for Artificial Intelligence</div>
+                  <div>Paper</div>
                 </div>
               </div>
             </div>
@@ -123,14 +193,13 @@ const IndexPage = () => {
                 <div className="ml-5">
                   <div>Han-Chih Chang*, Jianwei Li*, Ching-Seh Wu, Mark Stamp</div>
                   <div className="font-bold">Machine Learning and Deep Learning for Fixed-Text Keystroke Dynamics</div>
-                  <div>In book: Cybersecurity for Artificial Intelligence</div>
-                  <div>arXiv Paper</div>
+                  <div>Cybersecurity for Artificial Intelligence</div>
+                  <div>Paper</div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="py-3">
+          
+            <div className="py-3">
               <div className="flex flex-row flex-wrap items-center">
                 <div>
                   <img className="w-36" src="https://production-media.paperswithcode.com/tasks/Screenshot_2019-11-22_at_20.47.26_NEuBvdP.png"></img>
@@ -139,7 +208,7 @@ const IndexPage = () => {
                   <div>Yan Pang, Ai Shan, Zhen Wang, Mengyu Wang, Jianwei Li, Ji Zhang,Teng Huang, Chao Liu</div>
                   <div className="font-bold">Sparse‐Dyn: Sparse dynamic graph multirepresentation learning via event‐based sparse temporal attention network</div>
                   <div>International Journal of Intelligent Systems</div>
-                  <div>Paper</div>
+                  <div>Journal Paper</div>
                 </div>
               </div>
             </div>
@@ -153,11 +222,12 @@ const IndexPage = () => {
                   <div>Yan Pang, Teng Huang, Zhen Wang, Jianwei Li, Poorya Hosseini, Ji Zhang, Chao Liu</div>
                   <div className="font-bold">Graph Decipher: A transparent dual-attention graph neural network to understand the message-passing mechanism for the node classification</div>
                   <div>International Journal of Intelligent Systems</div>
-                  <div>Paper</div>
+                  <div>Journal Paper</div>
                 </div>
               </div>
             </div>
-
+          </div>
+          
           {/* <div>
             <div className="text-blue-800	text-xl font-bold">Academic Activities</div>
             <div className="text-sm pl-10 py-3">
@@ -189,20 +259,21 @@ const IndexPage = () => {
               </ul>
             </div>
           </div> 
+          */}
 
           <div>
             <div className="text-blue-800	text-xl font-bold">Teaching Assistant</div>
             <div className="text-sm pl-10 py-3">
               <ul className="list-disc">
-                <li>2015.9- 2016.1, Fudan University, COMP120008.02, C++ language programming</li>
+                <li>2023.8-2023.12, North Carolina State University, CSC422-Fall 2023, Automated Learning and Data Analysis</li>
               </ul>
             </div>
-          </div> */}
+          </div> 
         </div>
 
         <div className="text-center py-10 text-sm text-gray-500" style={{background:"#f5f5f5"}}>
           <div>© 2022 jianwei.li All rights reserved</div>
-          <div>(Last update: Sep 9, 2022.)</div>
+          <div>(Last update: Dec 12, 2023.)</div>
         </div>
       </div>
     </main>
