@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100" height="100">
+  <g fill="#000">
+    <!-- 头部 -->
+    <rect x="60" y="30" width="80" height="60" rx="10" />
+    <circle cx="80" cy="50" r="8" fill="#fff" />
+    <circle cx="120" cy="50" r="8" fill="#fff" />
+    <rect x="90" y="65" width="20" height="10" rx="2" fill="#fff" />
+    <!-- 天线 -->
+    <line x1="100" y1="30" x2="100" y2="10" stroke="#61DAFB" stroke-width="3" />
+    <circle cx="100" cy="10" r="5" />
+    <!-- 身体 -->
+    <rect x="50" y="90" width="100" height="70" rx="10" />
+    <rect x="70" y="100" width="20" height="40" rx="5" fill="#fff" />
+    <rect x="110" y="100" width="20" height="40" rx="5" fill="#fff" />
+    <!-- 手臂 -->
+    <rect x="30" y="100" width="20" height="40" rx="5" />
+    <rect x="150" y="100" width="20" height="40" rx="5" />
+    <!-- 腿部 -->
+    <rect x="70" y="160" width="20" height="30" rx="5" />
+    <rect x="110" y="160" width="20" height="30" rx="5" />
+  </g>
+</svg>
