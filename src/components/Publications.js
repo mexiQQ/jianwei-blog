@@ -11,10 +11,18 @@ import {
   sparseDyn,
   ssah,
   ssah2,
-  depth2
+  depth2,
+  securityBeforeSafety
 } from "../assets/index"; // 路径根据实际调整
 
 const publications = [
+  {
+    img: securityBeforeSafety,
+    authors: "Jianwei Li, Jung-Eun Kim",
+    title: "Security Before Safety: A Backdoor-Centric View of LLM Output Risks in the Private AI Era",
+    conf: "Preprint 2025",
+    note: <><a href="https://github.com/JEKimLab/Security-before-Safety/blob/main/security-before-safety.pdf" className="text-blue-600">Position Paper</a></>
+  },
   {
     img: ssah2,
     authors: "Jianwei Li, Jung-Eun Kim",
@@ -33,7 +41,7 @@ const publications = [
     img: ssah,
     authors: "Jianwei Li, Jung-Eun Kim",
     title: "Superficial Safety Alignment Hypothesis",
-    conf: "Preprint",
+    conf: "Preprint 2024",
     note: "arXiv"
   },
   {
@@ -76,21 +84,21 @@ const publications = [
     authors: "Jianwei Li, Han-Chih Chang, Mark Stamp",
     title: "Free-Text Keystroke Dynamics for User Authentication",
     conf: "Cybersecurity for Artificial Intelligence",
-    note: "Paper"
+    note: "Main Paper"
   },
   {
     img: freeKestroke2,
     authors: "Han-Chih Chang, Jianwei Li, Mark Stamp",
     title: "Machine Learning-Based Analysis of Free-Text Keystroke Dynamics",
     conf: "Cybersecurity for Artificial Intelligence",
-    note: "Paper"
+    note: "Main Paper"
   },
   {
     img: fixKeystroke,
     authors: "Han-Chih Chang*, Jianwei Li*, Ching-Seh Wu, Mark Stamp",
     title: "Machine Learning and Deep Learning for Fixed-Text Keystroke Dynamics",
     conf: "Cybersecurity for Artificial Intelligence",
-    note: "Paper"
+    note: "Main Paper"
   },
   {
     img: sparseDyn,
@@ -116,7 +124,7 @@ const Publications = () => (
       <div key={index} className="py-3">
         <div className="md:flex md:flex-row flex-wrap items-center">
           <div>
-            <img className="w-full md:w-36 border" src={pub.img} alt="pub" />
+            <img className="w-full md:w-48 border" src={pub.img} alt="pub" />
           </div>
           <div className="mt-5 md:mt-0 ml-3 md:ml-5 flex-1">
             <div>

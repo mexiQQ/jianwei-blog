@@ -14,6 +14,7 @@ import sparseDyn from './sparse-dyn.png';
 import ssah from './SSAH.png';
 import ssah2 from './SA-Explicit.png';
 import depth2 from './depth-2.png';
+import securityBeforeSafety from './security-before-safety.png';
 
 // Export all images as a named export object
 export {
@@ -31,5 +32,6 @@ export {
   sparseDyn,
   ssah,
   ssah2,
-  depth2
+  depth2,
+  securityBeforeSafety
 };

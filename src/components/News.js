@@ -4,6 +4,10 @@ const News = () => (
     <div className="text-sm pl-5 md:pl-10 py-3">
       <ul className="list-disc max-h-40 overflow-y-auto pr-2">
         <li>
+          [Oct 15, 2025] Pass PhD Written Preliminary Exam at{" "}
+          <span className="text-black-600 font-semibold">NCSU</span>
+        </li>
+        <li>
           [May 14–Aug 8, 2025] Start a research internship program at{" "}
           <span className="text-black-600 font-semibold">TikTok</span>
         </li>

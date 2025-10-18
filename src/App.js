@@ -6,6 +6,9 @@ import ResearchInterest from "./components/ResearchInterest";
 import News from "./components/News";
 import Publications from "./components/Publications";
 import Teaching from "./components/Teaching";
+import SnakeGame from "./components/SnakeGame"; // 🐍 引入游戏组件
+import TankBattle from "./components/TankBattle";
+import { useState } from "react";
 
 const pageStyles = {
   color: "#232129",
@@ -13,9 +16,12 @@ const pageStyles = {
 };
 
 function App() {
+  const [showSnakeGame, setShowSnakeGame] = useState(false);
+  const [showTankGame, setShowTankGame] = useState(false);
+
   return (
     <main style={pageStyles}>
-      <Header />
+      <Header onPlaySnake={() => setShowSnakeGame(true)} onPlayTank={() => setShowTankGame(true)} />
       <div className="pt-16">
         <div className="max-w-screen-lg mx-auto px-5 py-10">
           <Bio />
@@ -27,10 +33,12 @@ function App() {
         </div>
         <Footer />
       </div>
+      {/* 游戏入口 */}
+      {showSnakeGame && <SnakeGame onClose={() => setShowSnakeGame(false)} />}
+      {showTankGame && <TankBattle onClose={() => setShowTankGame(false)} />}
     </main>
   );
 }
-
 
 export default App;
 
