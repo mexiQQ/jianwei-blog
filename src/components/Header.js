@@ -1,6 +1,6 @@
 
 const Header = ({ onPlaySnake, onPlayTank }) => (
-  <div className="bg-white h-16 text-black font-bold border-b-2 border-slate-200 fixed w-full">
+  <div className="bg-white h-16 text-black z-[9999] font-bold border-b-2 border-slate-200 fixed w-full">
     <div className="max-w-screen-lg mx-auto px-5">
       <div className="h-16 flex flex-row flex-wrap content-center items-baseline">
         <div className="mr-5 text-xl"><a href="/">Jianwei Li</a></div>

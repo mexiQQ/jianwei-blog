@@ -1,7 +1,7 @@
 import React from "react";
 
 const Teaching = () => (
-  <div id="teaching" className="scroll-mt-20">
+  <div id="teaching" className="scroll-mt-20 mt-5">
     <div className="text-blue-800 text-xl font-bold">Teaching & Research Assistant</div>
     <div className="text-sm pl-5 md:pl-10 py-3">
       <ul className="list-disc">

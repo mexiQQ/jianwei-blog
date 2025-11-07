@@ -6,8 +6,9 @@ import ResearchInterest from "./components/ResearchInterest";
 import News from "./components/News";
 import Publications from "./components/Publications";
 import Teaching from "./components/Teaching";
-import SnakeGame from "./components/SnakeGame"; // 🐍 引入游戏组件
+import SnakeGame from "./components/SnakeGame";
 import TankBattle from "./components/TankBattle";
+import FavoriteBands from "./components/FavoriteBand";
 import { useState } from "react";
 
 const pageStyles = {
@@ -30,6 +31,7 @@ function App() {
           <News />
           <Publications />
           <Teaching />
+          <FavoriteBands />
         </div>
         <Footer />
       </div>

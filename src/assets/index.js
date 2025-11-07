@@ -15,6 +15,9 @@ import ssah from './SSAH.png';
 import ssah2 from './SA-Explicit.png';
 import depth2 from './depth-2.png';
 import securityBeforeSafety from './security-before-safety.png';
+import hedge from './hedge.jpg';
+import hcd from './hcd.webp';
+import mycr from './mycr.webp';
 
 // Export all images as a named export object
 export {
@@ -33,5 +36,8 @@ export {
   ssah,
   ssah2,
   depth2,
-  securityBeforeSafety
+  securityBeforeSafety,
+  hedge,
+  hcd,
+  mycr
 };

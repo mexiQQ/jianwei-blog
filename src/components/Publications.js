@@ -14,6 +14,7 @@ import {
   depth2,
   securityBeforeSafety
 } from "../assets/index"; // 路径根据实际调整
+import { useState } from "react";
 
 const publications = [
   {
@@ -116,34 +117,73 @@ const publications = [
   }
 ];
 
-const Publications = () => (
-  <div id="publications" className="scroll-mt-20">
-    <div className="text-blue-800 text-xl font-bold">Publications</div>
+const Publications = () => {
+  const [showAll, setShowAll] = useState(false);
 
-    {publications.map((pub, index) => (
-      <div key={index} className="py-3">
-        <div className="md:flex md:flex-row flex-wrap items-center">
-          <div>
-            <img className="w-full md:w-48 border" src={pub.img} alt="pub" />
-          </div>
-          <div className="mt-5 md:mt-0 ml-3 md:ml-5 flex-1">
-            <div>
-              {pub.authors.split(/(Jianwei Li)/).map((part, i) =>
-                part === "Jianwei Li" ? (
-                  <strong key={i} className="text-black-600 font-semibold">Jianwei Li</strong>
-                ) : (
-                  <span key={i}>{part}</span>
-                )
-              )}
+  const displayedPubs = showAll ? publications : publications.slice(0, 6);
+
+  return (
+    <div id="publications" className="scroll-mt-20 mt-5">
+      <div className="text-blue-800 text-xl font-bold mb-2">Publications</div>
+      {/* 内容部分 */}
+      <div
+        className={`transition-all duration-700 ease-in-out ${
+          showAll ? "max-h-full" : "max-h-[1100px] overflow-hidden"
+        } relative`}
+      >
+        {displayedPubs.map((pub, index) => (
+          <div key={index} className="py-3">
+            <div className="md:flex md:flex-row flex-wrap items-center">
+              <div>
+                <img className="w-full md:w-48 border" src={pub.img} alt="pub" />
+              </div>
+              <div className="mt-5 md:mt-0 ml-3 md:ml-5 flex-1">
+                <div>
+                  {pub.authors.split(/(Jianwei Li)/).map((part, i) =>
+                    part === "Jianwei Li" ? (
+                      <strong key={i} className="text-black-600 font-semibold">
+                        Jianwei Li
+                      </strong>
+                    ) : (
+                      <span key={i}>{part}</span>
+                    )
+                  )}
+                </div>
+                <div className="font-bold">{pub.title}</div>
+                <div>{pub.conf}</div>
+                <div>{pub.note}</div>
+              </div>
             </div>
-            <div className="font-bold">{pub.title}</div>
-            <div>{pub.conf}</div>
-            <div>{pub.note}</div>
           </div>
-        </div>
+        ))}
+        
+        {/* 底部渐隐遮罩（仅当未展开时显示） */}
+        {!showAll && (
+          <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white via-white/90 to-transparent pointer-events-none"></div>
+        )}
       </div>
-    ))}
-  </div>
-);
+
+      {/* 按钮 */}
+      <div className="flex justify-center mt-3">
+        <button
+          onClick={() => setShowAll(!showAll)}
+          className="flex items-center gap-2 text-gray-500 font-medium hover:text-blue-900 transition"
+        >
+          {showAll ? (
+            <>
+              Hide publications
+              <span className="text-lg">↑</span>
+            </>
+          ) : (
+            <>
+              Show all publications
+              <span className="text-lg animate-bounce">↓</span>
+            </>
+          )}
+        </button>
+      </div>
+    </div>
+  );
+};
 
 export default Publications;
