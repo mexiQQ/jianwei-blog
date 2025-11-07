@@ -9,6 +9,7 @@ import Teaching from "./components/Teaching";
 import SnakeGame from "./components/SnakeGame";
 import TankBattle from "./components/TankBattle";
 import FavoriteBands from "./components/FavoriteBand";
+import TreatMe from "./components/TreatMe";
 import { useState } from "react";
 
 const pageStyles = {
@@ -32,6 +33,7 @@ function App() {
           <Publications />
           <Teaching />
           <FavoriteBands />
+          {/* <TreatMe /> */}
         </div>
         <Footer />
       </div>

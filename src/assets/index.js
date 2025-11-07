@@ -18,6 +18,7 @@ import securityBeforeSafety from './security-before-safety.png';
 import hedge from './hedge.jpg';
 import hcd from './hcd.webp';
 import mycr from './mycr.webp';
+import venmo from './venmo.png';
 
 // Export all images as a named export object
 export {
@@ -39,5 +40,6 @@ export {
   securityBeforeSafety,
   hedge,
   hcd,
-  mycr
+  mycr,
+  venmo
 };
