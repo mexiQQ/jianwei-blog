@@ -120,7 +120,7 @@ const publications = [
 const Publications = () => {
   const [showAll, setShowAll] = useState(false);
 
-  const displayedPubs = showAll ? publications : publications.slice(0, 6);
+  const displayedPubs = showAll ? publications : publications.slice(0, 5);
 
   return (
     <div id="publications" className="scroll-mt-20 mt-5">
