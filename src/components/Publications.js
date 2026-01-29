@@ -12,17 +12,32 @@ import {
   ssah,
   ssah2,
   depth2,
+  backdoor,
   securityBeforeSafety
 } from "../assets/index"; // 路径根据实际调整
 import { useState } from "react";
 
 const publications = [
+  // {
+  //   img: securityBeforeSafety,
+  //   authors: "Jianwei Li, Jung-Eun Kim",
+  //   title: "Security Before Safety: A Backdoor-Centric View of LLM Output Risks in the Private AI Era",
+  //   conf: "Preprint",
+  //   note: <><a href="https://github.com/JEKimLab/Security-before-Safety/blob/main/security-before-safety.pdf" className="text-blue-600">Position Paper</a></>
+  // },
   {
-    img: securityBeforeSafety,
+    img: backdoor,
     authors: "Jianwei Li, Jung-Eun Kim",
-    title: "Security Before Safety: A Backdoor-Centric View of LLM Output Risks in the Private AI Era",
-    conf: "Preprint 2025",
-    note: <><a href="https://github.com/JEKimLab/Security-before-Safety/blob/main/security-before-safety.pdf" className="text-blue-600">Position Paper</a></>
+    title: "Purifying Generative LLMs from Backdoors without Prior Knowledge or Clean Reference",
+    conf: "ICLR 2026",
+    note: "Main Paper"
+  },
+  {
+    img: ssah,
+    authors: "Jianwei Li, Jung-Eun Kim",
+    title: "Superficial Safety Alignment Hypothesis",
+    conf: "ICLR 2026",
+    note: "Main Paper"
   },
   {
     img: ssah2,
@@ -37,13 +52,6 @@ const publications = [
     title: "Greedy Output Approximation: Towards Efficient Structured Pruning for LLMs Without Retraining",
     conf: "CPAL 2025",
     note: "Main Paper"
-  },
-  {
-    img: ssah,
-    authors: "Jianwei Li, Jung-Eun Kim",
-    title: "Superficial Safety Alignment Hypothesis",
-    conf: "Preprint 2024",
-    note: "arXiv"
   },
   {
     img: privacy,
@@ -88,16 +96,16 @@ const publications = [
     note: "Main Paper"
   },
   {
-    img: freeKestroke2,
-    authors: "Han-Chih Chang, Jianwei Li, Mark Stamp",
-    title: "Machine Learning-Based Analysis of Free-Text Keystroke Dynamics",
-    conf: "Cybersecurity for Artificial Intelligence",
-    note: "Main Paper"
-  },
-  {
     img: fixKeystroke,
     authors: "Han-Chih Chang*, Jianwei Li*, Ching-Seh Wu, Mark Stamp",
     title: "Machine Learning and Deep Learning for Fixed-Text Keystroke Dynamics",
+    conf: "Cybersecurity for Artificial Intelligence",
+    note: "Main Paper (* Equal Contribution)"
+  },
+  {
+    img: freeKestroke2,
+    authors: "Han-Chih Chang, Jianwei Li, Mark Stamp",
+    title: "Machine Learning-Based Analysis of Free-Text Keystroke Dynamics",
     conf: "Cybersecurity for Artificial Intelligence",
     note: "Main Paper"
   },

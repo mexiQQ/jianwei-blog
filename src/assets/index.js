@@ -19,6 +19,7 @@ import hedge from './hedge.jpg';
 import hcd from './hcd.webp';
 import mycr from './mycr.webp';
 import venmo from './venmo.png';
+import backdoor from './backdoor_prune.png'
 
 // Export all images as a named export object
 export {
@@ -41,5 +42,6 @@ export {
   hedge,
   hcd,
   mycr,
-  venmo
+  venmo,
+  backdoor
 };

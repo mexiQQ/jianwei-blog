@@ -4,33 +4,38 @@ const News = () => (
     <div className="text-sm pl-5 md:pl-10 py-3">
       <ul className="list-disc max-h-40 overflow-y-auto pr-2">
         <li>
-          [Oct 15, 2025] Pass PhD Written Preliminary Exam at{" "}
+          [JAN, 2026] <span className="font-semibold">Two</span> papers are accepted by{" "}
+          <span className="text-black-600 font-semibold">ICLR 2026</span>
+        </li>
+        <li>
+          [Oct, 2025] Pass <span className="font-semibold">PhD written</span> preliminary exam at{" "}
           <span className="text-black-600 font-semibold">NCSU</span>
         </li>
         <li>
-          [May 14–Aug 8, 2025] Start a research internship program at{" "}
+          [May–Aug, 2025] Start a research <span className="font-semibold">internship</span> program at{" "}
           <span className="text-black-600 font-semibold">TikTok</span>
         </li>
         <li>
-          [May 2, 2025] One paper is accepted by{" "}
+          [May, 2025] <span className="font-semibold">One</span> paper is accepted by{" "}
           <span className="text-black-600 font-semibold">ICML 2025</span>
         </li>
         <li>
-          [Feb 2, 2025] One paper is accepted by{" "}
+          [Feb, 2025] <span className="font-semibold">One</span> paper is accepted by{" "}
           <span className="text-black-600 font-semibold">CPAL 2025</span>
         </li>
         <li>
-          [Jan–Dec, 2024] Research internship at{" "}
-          <span className="text-black-600 font-semibold">Kim's Lab</span>, NCSU
+          [June, 2024] Start research under the guidance of 
+          <span className="text-black-600 font-semibold"> Prof. Jung-Eun Kim</span>
         </li>
+        ----------------------------------------
         <li>
-          [Dec 2, 2023] One paper selected as Oral of{" "}
+          [Dec, 2023] <span className="font-semibold">One</span> paper selected as Oral of{" "}
           <span className="text-black-600 font-semibold">
             FL@FM-NeurIPS 2023
           </span>
         </li>
         <li>
-          [Nov 7, 2023] Initiated the{" "}
+          [Nov, 2023] Initiated the{" "}
           <span className="text-black-600 font-semibold">
             Shadow-LLM-Guardians Group
           </span>
@@ -43,21 +48,21 @@ const News = () => (
           </a>
         </li>
         <li>
-          [Oct 7, 2023] Two papers are accepted by{" "}
+          [Oct, 2023] <span className="font-semibold">Two</span> papers are accepted by{" "}
           <span className="text-black-600 font-semibold">EMNLP 2023</span>
         </li>
-        <li>Serve as the DCAA 2023, AAAI 2024 Reviewer</li>
-        <li>Serve as official affiliation of New York University</li>
+        <li> [Aug, 2023] Start <span className="font-semibold">PhD</span> student life at <span className="font-semibold">NC State University</span>; Serve as official affiliation of <span className="font-semibold">New York University</span></li>
+        ----------------------------------------
         <li>
-          [Apr 7, 2023] Publicity Chair of the International Workshop on
-          Resource-Efficient Learning for Knowledge Discovery @KDD 2023.
+          [Apr, 2023] <span className="font-semibold">Publicity Chair</span> of the International Workshop on
+          <span className="font-semibold">Resource-Efficient Learning for Knowledge Discovery @KDD 2023</span>.
         </li>
         <li>
-          [Oct 3, 2022] Publicity Chair of the first workshop on DL-Hardware
-          Co-Design for AI Acceleration @AAAI 2023.
+          [Oct, 2022] <span className="font-semibold">Publicity Chair</span> of the first workshop on <span className="font-semibold">DL-Hardware
+          Co-Design for AI Acceleration @AAAI 2023</span>.
         </li>
-        <li>[Sep 13, 2022] Participated in AI Hardware Summit 2022.</li>
-        <li>[Sep 7, 2022] Moffett S30 Accelerator wins MLPerf V2.1</li>
+        <li>[Sep, 2022] Participated in <span className="font-semibold"> AI Hardware Summit 2022</span>.</li>
+        <li>[Sep, 2022] Moffett S30 Accelerator wins <span className="font-semibold">MLPerf V2.1</span></li>
       </ul>
     </div>
   </div>
