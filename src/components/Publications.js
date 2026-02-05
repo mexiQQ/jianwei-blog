@@ -18,61 +18,68 @@ import {
 import { useState } from "react";
 
 const publications = [
-  // {
-  //   img: securityBeforeSafety,
-  //   authors: "Jianwei Li, Jung-Eun Kim",
-  //   title: "Security Before Safety: A Backdoor-Centric View of LLM Output Risks in the Private AI Era",
-  //   conf: "Preprint",
-  //   note: <><a href="https://github.com/JEKimLab/Security-before-Safety/blob/main/security-before-safety.pdf" className="text-blue-600">Position Paper</a></>
-  // },
+  {
+    img: securityBeforeSafety,
+    authors: "Jianwei Li, Jung-Eun Kim",
+    title: "Security Before Safety: A Backdoor-Centric View of LLM Output Risks in the Private AI Era",
+    conf: "Preprint",
+    note: <><a href="https://github.com/JEKimLab/Security-before-Safety/blob/main/security-before-safety.pdf" className="text-blue-600">Position Paper</a></>
+  },
   {
     img: backdoor,
     authors: "Jianwei Li, Jung-Eun Kim",
     title: "Purifying Generative LLMs from Backdoors without Prior Knowledge or Clean Reference",
     conf: "ICLR 2026",
-    note: "Main Paper"
-  },
-  {
-    img: ssah,
-    authors: "Jianwei Li, Jung-Eun Kim",
-    title: "Superficial Safety Alignment Hypothesis",
-    conf: "ICLR 2026",
-    note: "Main Paper"
+    note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-red-600 px-2 py-0.5 text-sm text-white">Defense Backdoor Attack</span></>
   },
   {
     img: ssah2,
     authors: "Jianwei Li, Jung-Eun Kim",
     title: "Safety Alignment Can Be Not Superficial With Explicit Safety Signals",
     conf: "ICML 2025",
-    note: "Main Paper"
+  note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-blue-600 px-2 py-0.5 text-sm text-white">Defense Jailbreak Attack</span></>
   },
   {
-    img: depth2,
-    authors: "Jianwei Li, Yijun Dong, Qi Lei",
-    title: "Greedy Output Approximation: Towards Efficient Structured Pruning for LLMs Without Retraining",
-    conf: "CPAL 2025",
-    note: "Main Paper"
+    img: ssah,
+    authors: "Jianwei Li, Jung-Eun Kim",
+    title: "Superficial Safety Alignment Hypothesis",
+    conf: "ICLR 2026",
+    note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-green-600 px-2 py-0.5 text-sm text-white">Defense Fine-tuning Attack</span></>
   },
   {
     img: privacy,
     authors: "Jianwei Li, Sheng Liu, Qi Lei",
     title: "Beyond Gradient and Priors in Privacy Attacks: Leveraging Pooler Layer Inputs of Language Models in Federated Learning",
     conf: "FL@FM-NeurIPS 2023",
-    note: <>Workshop <span className="text-red-600">Oral</span></>
+    note: <>Workshop <span className="text-red-600">Oral</span><span className="ml-3 inline-flex items-center rounded-sm bg-gray-600 px-2 py-0.5 text-sm text-white">Defense Privacy Leakage</span></>
+  },
+  {
+    img: depth2,
+    authors: "Jianwei Li, Yijun Dong, Qi Lei",
+    title: "Greedy Output Approximation: Towards Efficient Structured Pruning for LLMs Without Retraining",
+    conf: "CPAL 2025",
+    note: <>Main Paper</>
   },
   {
     img: robust,
     authors: "Jianwei Li, Qi Lei, Wei Cheng, Dongkuan Xu",
     title: "Towards Robust Pruning: An Adaptive Knowledge-Retention Pruning Strategy for Language Models",
     conf: "EMNLP 2023",
-    note: "Main Paper"
+    note: <>Main Paper</>
   },
   {
     img: random,
     authors: "Jianwei Li, Weizhi Gao, Qi Lei, Dongkuan Xu",
     title: "Breaking through Deterministic Barriers: Randomized Pruning Mask Generation and Selection",
     conf: "EMNLP 2023",
-    note: "Findings"
+    note: <>Finding</>
+  },
+  {
+    img: FP8,
+    authors: "Jianwei Li, Tianchi Zhang, Ian En-Hsu Yen, Dongkuan Xu",
+    title: "FP8-BERT: Post-Training Quantization for Transformer",
+    conf: "DCAA@AAAI 2023",
+    note: <>Workshop Paper</>
   },
   {
     img: EffiTraff,
@@ -80,13 +87,6 @@ const publications = [
     title: "Toward Efficient Traffic Signal Control: Smaller Network Can Do More",
     conf: "CDC 2023",
     note: "Main Paper"
-  },
-  {
-    img: FP8,
-    authors: "Jianwei Li, Tianchi Zhang, Ian En-Hsu Yen, Dongkuan Xu",
-    title: "FP8-BERT: Post-Training Quantization for Transformer",
-    conf: "DCAA@AAAI 2023",
-    note: "Workshop Paper"
   },
   {
     img: freeKestroke,
@@ -132,7 +132,7 @@ const Publications = () => {
 
   return (
     <div id="publications" className="scroll-mt-20 mt-5">
-      <div className="text-blue-800 text-xl font-bold mb-2">Publications</div>
+      <div className="text-blue-800 text-xl font-bold mb-2">{showAll ? "Publications" : "Selected Publications"}</div>
       {/* 内容部分 */}
       <div
         className={`transition-all duration-700 ease-in-out ${
@@ -158,8 +158,9 @@ const Publications = () => {
                   )}
                 </div>
                 <div className="font-bold">{pub.title}</div>
-                <div>{pub.conf}</div>
+                
                 <div>{pub.note}</div>
+                <div className="font-semibold">{pub.conf}</div>
               </div>
             </div>
           </div>

@@ -2,9 +2,10 @@ const News = () => (
   <div className="mt-6 scroll-mt-20" id="news">
     <div className="text-blue-800 text-xl font-bold">News</div>
     <div className="text-sm pl-5 md:pl-10 py-3">
+      * Scrollable
       <ul className="list-disc max-h-40 overflow-y-auto pr-2">
         <li>
-          [JAN, 2026] <span className="font-semibold">Two</span> papers are accepted by{" "}
+          [Jan, 2026] <span className="font-semibold">Two</span> papers are accepted by{" "}
           <span className="text-black-600 font-semibold">ICLR 2026</span>
         </li>
         <li>
@@ -24,7 +25,7 @@ const News = () => (
           <span className="text-black-600 font-semibold">CPAL 2025</span>
         </li>
         <li>
-          [June, 2024] Start research under the guidance of 
+          [Jul, 2024] Start research under the guidance of 
           <span className="text-black-600 font-semibold"> Prof. Jung-Eun Kim</span>
         </li>
         ----------------------------------------
