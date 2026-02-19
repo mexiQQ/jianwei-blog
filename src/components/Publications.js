@@ -18,13 +18,13 @@ import {
 import { useState } from "react";
 
 const publications = [
-  {
-    img: securityBeforeSafety,
-    authors: "Jianwei Li, Jung-Eun Kim",
-    title: "Security Before Safety: A Backdoor-Centric View of LLM Output Risks in the Private AI Era",
-    conf: "Preprint",
-    note: <><a href="https://github.com/JEKimLab/Security-before-Safety/blob/main/security-before-safety.pdf" className="text-blue-600">Position Paper</a></>
-  },
+  // {
+  //   img: securityBeforeSafety,
+  //   authors: "Jianwei Li, Jung-Eun Kim",
+  //   title: "Security Before Safety: A Backdoor-Centric View of LLM Output Risks in the Private AI Era",
+  //   conf: "Preprint",
+  //   note: <><a href="https://github.com/JEKimLab/Security-before-Safety/blob/main/security-before-safety.pdf" className="text-blue-600">Position Paper</a></>
+  // },
   {
     img: backdoor,
     authors: "Jianwei Li, Jung-Eun Kim",
@@ -139,6 +139,7 @@ const Publications = () => {
           showAll ? "max-h-full" : "max-h-[1100px] overflow-hidden"
         } relative`}
       >
+      
         {displayedPubs.map((pub, index) => (
           <div key={index} className="py-3">
             <div className="md:flex md:flex-row flex-wrap items-center">

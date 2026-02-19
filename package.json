@@ -19,7 +19,7 @@
     "eject": "react-scripts eject"
   },
   "reactSnap": {
-    "inlineCss": true,
+    "inlineCss": false,
     "port": 3000,
     "skipThirdPartyRequests": true,
     "puppeteerArgs": [
