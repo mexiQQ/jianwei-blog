@@ -15,6 +15,7 @@ import ssah from './SSAH.png';
 import ssah2 from './SA-Explicit.png';
 import depth2 from './depth-2.png';
 import securityBeforeSafety from './security-before-safety.png';
+import secreat from './secreat.png';
 import hedge from './hedge.jpg';
 import hcd from './hcd.webp';
 import mycr from './mycr.webp';
@@ -43,5 +44,6 @@ export {
   hcd,
   mycr,
   venmo,
-  backdoor
+  backdoor,
+  secreat
 };

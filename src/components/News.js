@@ -5,6 +5,10 @@ const News = () => (
       * Scrollable
       <ul className="list-disc max-h-40 overflow-y-auto pr-2">
         <li>
+          [May, 2026] <span className="font-semibold">One</span> paper is accepted by{" "}
+          <span className="text-black-600 font-semibold">ICML 2026</span>
+        </li>
+        <li>
           [Jan, 2026] <span className="font-semibold">Two</span> papers are accepted by{" "}
           <span className="text-black-600 font-semibold">ICLR 2026</span>
         </li>

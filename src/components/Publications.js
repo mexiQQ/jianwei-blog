@@ -13,18 +13,26 @@ import {
   ssah2,
   depth2,
   backdoor,
-  securityBeforeSafety
+  securityBeforeSafety,
+  secreat
 } from "../assets/index"; // 路径根据实际调整
 import { useState } from "react";
 
 const publications = [
-  // {
-  //   img: securityBeforeSafety,
-  //   authors: "Jianwei Li, Jung-Eun Kim",
-  //   title: "Security Before Safety: A Backdoor-Centric View of LLM Output Risks in the Private AI Era",
-  //   conf: "Preprint",
-  //   note: <><a href="https://github.com/JEKimLab/Security-before-Safety/blob/main/security-before-safety.pdf" className="text-blue-600">Position Paper</a></>
-  // },
+  {
+    img: securityBeforeSafety,
+    authors: "Jianwei Li, Jung-Eun Kim",
+    title: "Security Before Safety: A Backdoor-Centric View of LLM Output Risks in the Private AI Era",
+    // conf: "Preprint",
+    note: <><a href="https://github.com/JEKimLab/Security-before-Safety/blob/main/security-before-safety.pdf" className="text-blue-600">Preprint</a></>
+  },
+  {
+    img: secreat,
+    authors: "Jianwei Li, Jung-Eun Kim",
+    title: "Position: Retire the “Positive Backdoor” Label—Secret Alignment Requires Strict and Systematic Evaluation",
+    conf: "ICML 2026",
+    note: <>Position Paper<span className="ml-3 inline-flex items-center rounded-sm bg-[#5e9b85] px-2 py-0.5 text-sm text-white">Secret Alignment Evaluation</span></>
+  },
   {
     img: backdoor,
     authors: "Jianwei Li, Jung-Eun Kim",
@@ -50,7 +58,7 @@ const publications = [
     img: privacy,
     authors: "Jianwei Li, Sheng Liu, Qi Lei",
     title: "Beyond Gradient and Priors in Privacy Attacks: Leveraging Pooler Layer Inputs of Language Models in Federated Learning",
-    conf: "FL@FM-NeurIPS 2023",
+    conf: "FL@FM NeurIPS 2023",
     note: <>Workshop <span className="text-red-600">Oral</span><span className="ml-3 inline-flex items-center rounded-sm bg-gray-600 px-2 py-0.5 text-sm text-white">Defense Privacy Leakage</span></>
   },
   {
@@ -128,7 +136,7 @@ const publications = [
 const Publications = () => {
   const [showAll, setShowAll] = useState(false);
 
-  const displayedPubs = showAll ? publications : publications.slice(0, 5);
+  const displayedPubs = showAll ? publications : publications.slice(0, 7);
 
   return (
     <div id="publications" className="scroll-mt-20 mt-5">
