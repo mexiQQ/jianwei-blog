@@ -32,7 +32,7 @@ function App() {
           <News />
           <Publications />
           <Teaching />
-          <FavoriteBands />
+          {/* <FavoriteBands /> */}
           {/* <TreatMe /> */}
         </div>
         <Footer />

@@ -38,14 +38,14 @@ const publications = [
     authors: "Jianwei Li, Jung-Eun Kim",
     title: "Purifying Generative LLMs from Backdoors without Prior Knowledge or Clean Reference",
     conf: "ICLR 2026",
-    note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-red-600 px-2 py-0.5 text-sm text-white">Defense Backdoor Attack</span></>
+    note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-rose-600 px-2 py-0.5 text-sm text-white">Defense Backdoor Attack</span></>
   },
   {
     img: ssah2,
     authors: "Jianwei Li, Jung-Eun Kim",
     title: "Safety Alignment Can Be Not Superficial With Explicit Safety Signals",
     conf: "ICML 2025",
-  note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-blue-600 px-2 py-0.5 text-sm text-white">Defense Jailbreak Attack</span></>
+  note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-indigo-600 px-2 py-0.5 text-sm text-white">Defense Jailbreak Attack</span></>
   },
   {
     img: ssah,

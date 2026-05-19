@@ -16,7 +16,7 @@ const Bio = () => (
       </p>
       <p className="mt-3">
         {/* I am actively looking for the 2026 summer intern opportunities in the area of Artificial Intellgence, especially the directions of AI Safety and AI Efficiency. */}
-        I will be joining the <a href="" className="text-blue-800 font-bold"> TikTok NLP Trust & Safety (TNS)</a> team as a Research Scientist Intern in Summer 2026. Previously, in Summer 2025, I interned with <a href="" className="text-blue-800 font-bold">TikTok Responsible Recommendation Systems (RRS)</a> team, where I worked on safety-aware recommendation for multimodal LLM.
+        Currently, I am a Research Scientist Intern at the <a href="" className="text-blue-800 font-bold"> TikTok NLP Trust & Safety (TNS)</a> team for Summer 2026. Previously, in Summer 2025, I interned with <a href="" className="text-blue-800 font-bold">TikTok Responsible Recommendation Systems (RRS)</a> team, where I worked on safety-aware recommendation for multimodal LLM.
       </p>
       {/* <p className="mt-1">
         I am also actively looking for the collabrating opportunities in the feild of <span className="text-red-600">AI Safety</span> and <span className="text-red-600">Efficient AI</span> from Industry, especially the direction of <span className="text-red-600">Shadow LLM</span>.

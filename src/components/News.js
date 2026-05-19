@@ -2,45 +2,61 @@ const News = () => (
   <div className="mt-6 scroll-mt-20" id="news">
     <div className="text-blue-800 text-xl font-bold">News</div>
     <div className="text-sm pl-5 md:pl-10 py-3">
-      * Scrollable
-      <ul className="list-disc max-h-40 overflow-y-auto pr-2">
+      <span className="text-gray-500 italic underline underline-offset-2">Scroll down for more news ↓</span>
+      <ul className="list-disc max-h-40 overflow-y-auto pr-2 mt-1">
         <li>
-          [May, 2026] <span className="font-semibold">One</span> paper is accepted by{" "}
+          [May, 2026] 🥇 Selected as <span className="font-semibold">Gold Reviewer</span> of{" "}
           <span className="text-black-600 font-semibold">ICML 2026</span>
         </li>
         <li>
-          [Jan, 2026] <span className="font-semibold">Two</span> papers are accepted by{" "}
-          <span className="text-black-600 font-semibold">ICLR 2026</span>
-        </li>
-        <li>
-          [Oct, 2025] Pass <span className="font-semibold">PhD written</span> preliminary exam at{" "}
-          <span className="text-black-600 font-semibold">NCSU</span>
-        </li>
-        <li>
-          [May–Aug, 2025] Start a research <span className="font-semibold">internship</span> program at{" "}
+          [May, 2026] 💼 Start a research <span className="font-semibold">internship</span> program at{" "}
           <span className="text-black-600 font-semibold">TikTok</span>
         </li>
         <li>
-          [May, 2025] <span className="font-semibold">One</span> paper is accepted by{" "}
+          [April, 2026] 📝 Invited to serve as <span className="font-semibold">Reviewer</span> for{" "}
+          <span className="text-black-600 font-semibold">NeurIPS 2026</span>
+        </li>
+        <li>
+          [April, 2026] 🎉 <span className="font-semibold">One</span> paper is accepted by{" "}
+          <span className="text-black-600 font-semibold">ICML 2026</span>
+        </li>
+        <li>
+          [March, 2026] 📝 serve as <span className="font-semibold">Reviewer</span> for{" "}
+          <span className="text-black-600 font-semibold">ICML 2026</span>
+        </li>
+        <li>
+          [Jan, 2026] 🎉 <span className="font-semibold">Two</span> papers are accepted by{" "}
+          <span className="text-black-600 font-semibold">ICLR 2026</span>
+        </li>
+        <li>
+          [Oct, 2025] 🎓 Pass <span className="font-semibold">PhD written</span> preliminary exam at{" "}
+          <span className="text-black-600 font-semibold">NCSU</span>
+        </li>
+        <li>
+          [May–Aug, 2025] 💼 Start a research <span className="font-semibold">internship</span> program at{" "}
+          <span className="text-black-600 font-semibold">TikTok</span>
+        </li>
+        <li>
+          [May, 2025] 🎉 <span className="font-semibold">One</span> paper is accepted by{" "}
           <span className="text-black-600 font-semibold">ICML 2025</span>
         </li>
         <li>
-          [Feb, 2025] <span className="font-semibold">One</span> paper is accepted by{" "}
+          [Feb, 2025] 🎉 <span className="font-semibold">One</span> paper is accepted by{" "}
           <span className="text-black-600 font-semibold">CPAL 2025</span>
         </li>
         <li>
-          [Jul, 2024] Start research under the guidance of 
+          [Jul, 2024] 🤝 Start research under the guidance of
           <span className="text-black-600 font-semibold"> Prof. Jung-Eun Kim</span>
         </li>
         ----------------------------------------
         <li>
-          [Dec, 2023] <span className="font-semibold">One</span> paper selected as Oral of{" "}
+          [Dec, 2023] 🎤 <span className="font-semibold">One</span> paper selected as Oral of{" "}
           <span className="text-black-600 font-semibold">
             FL@FM-NeurIPS 2023
           </span>
         </li>
         <li>
-          [Nov, 2023] Initiated the{" "}
+          [Nov, 2023] 🛡️ Initiated the{" "}
           <span className="text-black-600 font-semibold">
             Shadow-LLM-Guardians Group
           </span>
@@ -53,21 +69,21 @@ const News = () => (
           </a>
         </li>
         <li>
-          [Oct, 2023] <span className="font-semibold">Two</span> papers are accepted by{" "}
+          [Oct, 2023] 🎉 <span className="font-semibold">Two</span> papers are accepted by{" "}
           <span className="text-black-600 font-semibold">EMNLP 2023</span>
         </li>
-        <li> [Aug, 2023] Start <span className="font-semibold">PhD</span> student life at <span className="font-semibold">NC State University</span>; Serve as official affiliation of <span className="font-semibold">New York University</span></li>
+        <li> [Aug, 2023] 🎓 Start <span className="font-semibold">PhD</span> student life at <span className="font-semibold">NC State University</span>; Serve as official affiliation of <span className="font-semibold">New York University</span></li>
         ----------------------------------------
         <li>
-          [Apr, 2023] <span className="font-semibold">Publicity Chair</span> of the International Workshop on
+          [Apr, 2023] 📢 <span className="font-semibold">Publicity Chair</span> of the International Workshop on
           <span className="font-semibold">Resource-Efficient Learning for Knowledge Discovery @KDD 2023</span>.
         </li>
         <li>
-          [Oct, 2022] <span className="font-semibold">Publicity Chair</span> of the first workshop on <span className="font-semibold">DL-Hardware
+          [Oct, 2022] 📢 <span className="font-semibold">Publicity Chair</span> of the first workshop on <span className="font-semibold">DL-Hardware
           Co-Design for AI Acceleration @AAAI 2023</span>.
         </li>
         <li>[Sep, 2022] Participated in <span className="font-semibold"> AI Hardware Summit 2022</span>.</li>
-        <li>[Sep, 2022] Moffett S30 Accelerator wins <span className="font-semibold">MLPerf V2.1</span></li>
+        <li>[Sep, 2022] 🏆 Moffett S30 Accelerator wins <span className="font-semibold">MLPerf V2.1</span></li>
       </ul>
     </div>
   </div>
