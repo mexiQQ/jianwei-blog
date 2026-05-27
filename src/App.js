@@ -4,6 +4,7 @@ import Bio from "./components/Bio";
 import ContactInfo from "./components/ContactInfo";
 import ResearchInterest from "./components/ResearchInterest";
 import News from "./components/News";
+import Preprints from "./components/Preprints";
 import Publications from "./components/Publications";
 import Teaching from "./components/Teaching";
 import SnakeGame from "./components/SnakeGame";
@@ -30,6 +31,7 @@ function App() {
           <ContactInfo />
           <ResearchInterest />
           <News />
+          <Preprints />
           <Publications />
           <Teaching />
           {/* <FavoriteBands /> */}

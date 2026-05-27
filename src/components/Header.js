@@ -3,12 +3,15 @@ const Header = ({ onPlaySnake, onPlayTank }) => (
   <div className="bg-white h-16 text-black z-[9999] font-bold border-b-2 border-slate-200 fixed w-full">
     <div className="max-w-screen-lg mx-auto px-5">
       <div className="h-16 flex flex-row flex-wrap content-center items-baseline">
-        <div className="mr-16 text-xl"><a href="/">Jianwei Li</a></div>
+        <div className="md:mr-16 mr-5 text-xl"><a href="/">Jianwei Li</a></div>
         <div className="hidden md:block mr-5 text-sm text-black">
           <a href="#research">Research Interest</a>
         </div>
         <div className="hidden md:block mr-5 text-sm text-black">
           <a href="#news">News</a>
+        </div>
+        <div className="hidden md:block mr-5 text-sm text-black">
+          <a href="#preprints">Preprints</a>
         </div>
         <div className="hidden md:block mr-5 text-sm text-black">
           <a href="#publications">Publications</a>

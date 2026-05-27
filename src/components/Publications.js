@@ -13,19 +13,12 @@ import {
   ssah2,
   depth2,
   backdoor,
-  securityBeforeSafety,
   secreat
 } from "../assets/index"; // 路径根据实际调整
 import { useState } from "react";
+import { PaperLinks } from "./PaperLinks";
 
 const publications = [
-  {
-    img: securityBeforeSafety,
-    authors: "Jianwei Li, Jung-Eun Kim",
-    title: "Security Before Safety: A Backdoor-Centric View of LLM Output Risks in the Private AI Era",
-    // conf: "Preprint",
-    note: <><a href="https://github.com/JEKimLab/Security-before-Safety/blob/main/security-before-safety.pdf" className="text-blue-600">Preprint</a></>
-  },
   {
     img: secreat,
     authors: "Jianwei Li, Jung-Eun Kim",
@@ -38,21 +31,55 @@ const publications = [
     authors: "Jianwei Li, Jung-Eun Kim",
     title: "Purifying Generative LLMs from Backdoors without Prior Knowledge or Clean Reference",
     conf: "ICLR 2026",
-    note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-rose-600 px-2 py-0.5 text-sm text-white">Defense Backdoor Attack</span></>
+    note: (
+      <>
+        Main Paper
+        <span className="ml-3 inline-flex items-center rounded-sm bg-rose-600 px-2 py-0.5 text-sm text-white">Defense Backdoor Attack</span>
+        <PaperLinks
+          pdf="https://openreview.net/pdf?id=M7eWB695jp"
+          code="https://github.com/JEKimLab/bd-vax"
+          site="https://bd-vax.github.io/"
+        />
+      </>
+    )
   },
   {
     img: ssah2,
     authors: "Jianwei Li, Jung-Eun Kim",
     title: "Safety Alignment Can Be Not Superficial With Explicit Safety Signals",
     conf: "ICML 2025",
-  note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-indigo-600 px-2 py-0.5 text-sm text-white">Defense Jailbreak Attack</span></>
+    note: (
+      <>
+        Main Paper
+        <span className="ml-3 inline-flex items-center rounded-sm bg-indigo-600 px-2 py-0.5 text-sm text-white">Defense Jailbreak Attack</span>
+        <PaperLinks
+          pdf="https://arxiv.org/pdf/2505.17072"
+          code="https://github.com/JEKimLab/Safety-Alignment-With-Explicit-Safety-Signal"
+          site="https://sa-ess.github.io/"
+        />
+      </>
+    )
   },
   {
     img: ssah,
     authors: "Jianwei Li, Jung-Eun Kim",
     title: "Superficial Safety Alignment Hypothesis",
-    conf: "ICLR 2026",
-    note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-green-600 px-2 py-0.5 text-sm text-white">Defense Fine-tuning Attack</span></>
+    conf: (
+      <>
+        ICLR 2026 <span className="text-xs font-normal text-gray-500">(arXiv 2024)</span>
+      </>
+    ),
+    note: (
+      <>
+        Main Paper
+        <span className="ml-3 inline-flex items-center rounded-sm bg-green-600 px-2 py-0.5 text-sm text-white">Defense Fine-tuning Attack</span>
+        <PaperLinks
+          pdf="https://arxiv.org/pdf/2410.10862"
+          code="https://github.com/JEKimLab/SSAH"
+          site="https://ssa-h.github.io/"
+        />
+      </>
+    )
   },
   {
     img: privacy,
@@ -136,10 +163,10 @@ const publications = [
 const Publications = () => {
   const [showAll, setShowAll] = useState(false);
 
-  const displayedPubs = showAll ? publications : publications.slice(0, 7);
+  const displayedPubs = showAll ? publications : publications.slice(0, 5);
 
   return (
-    <div id="publications" className="scroll-mt-20 mt-5">
+    <div id="publications" className="scroll-mt-20 mt-10">
       <div className="text-blue-800 text-xl font-bold mb-2">{showAll ? "Publications" : "Selected Publications"}</div>
       {/* 内容部分 */}
       <div
@@ -167,7 +194,6 @@ const Publications = () => {
                   )}
                 </div>
                 <div className="font-bold">{pub.title}</div>
-                
                 <div>{pub.note}</div>
                 <div className="font-semibold">{pub.conf}</div>
               </div>
