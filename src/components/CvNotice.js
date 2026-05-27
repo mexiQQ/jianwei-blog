@@ -38,7 +38,7 @@ const CvNotice = ({ open, onClose }) => {
           ×
         </button>
 
-        <div className="text-blue-800 text-lg font-bold mb-3">
+        <div className="text-black text-lg font-bold mb-3">
           CV temporarily unavailable
         </div>
 
@@ -52,24 +52,25 @@ const CvNotice = ({ open, onClose }) => {
           I will gladly share the latest version:
         </p>
         <p className="text-sm mt-2">
-          <a className="text-blue-800 hover:underline" href="mailto:ljw040426@gmail.com">
+          <a className="text-black underline hover:no-underline" href="mailto:ljw040426@gmail.com">
             ljw040426@gmail.com
           </a>
           <span className="mx-2 text-gray-400">·</span>
-          <a className="text-blue-800 hover:underline" href="mailto:jli265@ncsu.edu">
+          <a className="text-black underline hover:no-underline" href="mailto:jli265@ncsu.edu">
             jli265@ncsu.edu
           </a>
         </p>
 
         <p className="text-sm leading-relaxed text-gray-700 mt-4">
-          I am actively seeking <strong>2027 Research Scientist Intern</strong> or{" "}
-          <strong>full-time</strong> opportunities. Thank you for your interest!
+          I am actively seeking a <strong>Summer 2027 Research Scientist internship</strong>,
+          as well as <strong>permanent research positions starting in 2027 or 2028</strong>{" "}
+          upon graduation. Thank you for your interest!
         </p>
 
         <div className="mt-6 flex justify-end">
           <button
             onClick={onClose}
-            className="px-4 py-1.5 text-sm rounded bg-blue-800 text-white hover:bg-blue-900 transition"
+            className="px-4 py-1.5 text-sm rounded bg-black text-white hover:bg-gray-700 transition"
           >
             Got it
           </button>
