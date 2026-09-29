@@ -29,7 +29,7 @@ const publications = [
     authors: "Jianwei Li, Jung-Eun Kim",
     title: "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
     conf: "NeurIPS 2026",
-    note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-rose-600 px-2 py-0.5 text-sm text-white">Subspace Purification</span></>
+    note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-blue-700 px-2 py-0.5 text-sm text-white">Backdoor: Subspace Purification</span></>
   },
   {
     id: "expert-quarantine",
@@ -39,7 +39,7 @@ const publications = [
     authors: "Jianwei Li, Min-Seon Kim, Jung-Eun Kim",
     title: "Not Suppressing or Purifying: Backdoor Containment via Expert Quarantine and Shutdown in LLMs",
     conf: "NeurIPS 2026",
-    note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-rose-600 px-2 py-0.5 text-sm text-white">Architectural Containment</span></>
+    note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-violet-700 px-2 py-0.5 text-sm text-white">Backdoor: Architectural Containment</span></>
   },
   {
     img: secreat,
@@ -57,7 +57,7 @@ const publications = [
     note: (
       <>
         Main Paper
-        <span className="ml-3 inline-flex items-center rounded-sm bg-rose-600 px-2 py-0.5 text-sm text-white">Weight Purification</span>
+        <span className="ml-3 inline-flex items-center rounded-sm bg-teal-700 px-2 py-0.5 text-sm text-white">Backdoor: Weight Purification</span>
         <PaperLinks
           pdf="https://openreview.net/pdf?id=M7eWB695jp"
           code="https://github.com/JEKimLab/bd-vax"
