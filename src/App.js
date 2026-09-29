@@ -11,6 +11,7 @@ import SnakeGame from "./components/SnakeGame";
 import TankBattle from "./components/TankBattle";
 import FavoriteBands from "./components/FavoriteBand";
 import TreatMe from "./components/TreatMe";
+import Hedgehog from "./components/Hedgehog";
 import { useState } from "react";
 
 const pageStyles = {
@@ -42,6 +43,7 @@ function App() {
       {/* 游戏入口 */}
       {showSnakeGame && <SnakeGame onClose={() => setShowSnakeGame(false)} />}
       {showTankGame && <TankBattle onClose={() => setShowTankGame(false)} />}
+      <Hedgehog />
     </main>
   );
 }

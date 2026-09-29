@@ -5,11 +5,23 @@ const News = () => (
       <span className="text-gray-500 italic underline underline-offset-2">Scroll down for more news ↓</span>
       <ul className="list-disc max-h-40 overflow-y-auto pr-2 mt-1">
         <li>
+          [July, 2026] 📝 Invited to serve as <span className="font-semibold">Reviewer</span> for{" "}
+          <span className="text-black-600 font-semibold">AAAI 2027</span>
+        </li>
+        <li>
+          [June, 2026] 🔄 Transitioned to the <span className="font-semibold">Foundations & Intelligence Service (TNS)</span> team at{" "}
+          <span className="text-black-600 font-semibold">TikTok</span>
+        </li>
+        <li>
+          [June, 2026] 📝 Invited to serve as <span className="font-semibold">Reviewer</span> for{" "}
+          <span className="text-black-600 font-semibold">TMLR</span>
+        </li>
+        <li>
           [May, 2026] 🥇 Selected as <span className="font-semibold">Gold Reviewer</span> of{" "}
           <span className="text-black-600 font-semibold">ICML 2026</span>
         </li>
         <li>
-          [May, 2026] 💼 Start a research <span className="font-semibold">internship</span> program at{" "}
+          [May, 2026] 💼 Start a research <span className="font-semibold">internship</span> program with the <span className="font-semibold">NLP Trust & Safety (TNS)</span> team at{" "}
           <span className="text-black-600 font-semibold">TikTok</span>
         </li>
         <li>
@@ -33,7 +45,7 @@ const News = () => (
           <span className="text-black-600 font-semibold">NCSU</span>
         </li>
         <li>
-          [May–Aug, 2025] 💼 Start a research <span className="font-semibold">internship</span> program at{" "}
+          [May–Aug, 2025] 💼 Start a research <span className="font-semibold">internship</span> program with the <span className="font-semibold">Responsible Recommendation Systems (RRS)</span> team at{" "}
           <span className="text-black-600 font-semibold">TikTok</span>
         </li>
         <li>
