@@ -103,7 +103,7 @@
 <path d="M736 149 C736 149 720 149 720 166.8 C720 175.7 720 175.7 704 193.5 C720 211.3 720 211.3 720 220.2 C720 238 720 238 736 238" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
 <text x="500" y="367.5" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#173E70">Protective Uses</text>
 <path d="M736 298 C736 298 720 298 720 320 C720 336.5 720 336.5 704 358.5 C720 380.5 720 380.5 720 397 C720 419 720 419 736 419" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
-<text x="500" y="679.5" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#173E70">Malicious Use</text>
+<text x="500" y="679.5" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#173E70">Malicious Uses</text>
 <path d="M736 460 C736 460 720 460 720 482 C720 648.5 720 648.5 704 670.5 C720 692.5 720 692.5 720 859 C720 881 720 881 736 881" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
 <text x="265" y="582.5" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#173E70">Backdoor</text>
 <text x="265" y="614.5" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#173E70">Attack Defense</text>
