@@ -5,7 +5,7 @@ const ResearchLandscape = () => (
     <h2 id="research-landscape-title" className="text-blue-800 text-xl font-bold mb-2">Research Landscape</h2>
     <figure>
       <a href={landscape} target="_blank" rel="noopener noreferrer" aria-label="Open full-size research landscape diagram">
-        <img className="block w-full h-auto" src={landscape} width="1800" height="1900" alt="Research organized into AI Safety and Security and AI Efficiency, with paper titles, authors, and venues. Safety and Security covers fine-tuning, jailbreak, backdoor and privacy attack defense, plus perspectives and surveys. Efficiency covers pruning, quantization and efficient control." />
+        <img className="block w-full h-auto" src={landscape} width="1800" height="1510" alt="Research organized into AI Safety and Security and AI Efficiency, with paper titles, authors, and venues. Safety and Security covers fine-tuning, jailbreak, backdoor and privacy attack defense. Efficiency covers pruning and quantization." />
       </a>
       <figcaption className="text-right text-sm mt-1">
         <a className="text-gray-500 hover:text-blue-800 hover:underline" href={landscape} target="_blank" rel="noopener noreferrer">View full-size diagram ↗</a>
