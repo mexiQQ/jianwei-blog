@@ -34,8 +34,8 @@ const publications = [
   {
     id: "expert-quarantine",
     img: quarantine,
-    alt: "QES architecture with routed quarantined and benign LoRA experts",
-    portraitSafe: true,
+    alt: "QES router and quarantined versus benign LoRA experts",
+    cropToExperts: true,
     authors: "Jianwei Li, Min-Seon Kim, Jung-Eun Kim",
     title: "Not Suppressing or Purifying: Backdoor Containment via Expert Quarantine and Shutdown in LLMs",
     conf: "NeurIPS 2026",
@@ -197,7 +197,7 @@ const Publications = () => {
           <div key={pub.title} id={pub.id} className="py-3 scroll-mt-20">
             <div className="md:flex md:flex-row flex-wrap items-center">
               <div className="md:w-48 md:flex-shrink-0">
-                <img className={pub.portraitSafe ? "block mx-auto max-w-full w-auto h-auto max-h-64 md:max-h-48 object-contain border" : "w-full md:w-48 border"} src={pub.img} alt={pub.alt || pub.title} />
+                <img style={pub.cropToExperts ? { aspectRatio: "1.9", objectPosition: "center 62%" } : undefined} className={pub.cropToExperts ? "block w-full md:w-48 object-cover border" : pub.portraitSafe ? "block mx-auto max-w-full w-auto h-auto max-h-64 md:max-h-48 object-contain border" : "w-full md:w-48 border"} src={pub.img} alt={pub.alt || pub.title} />
               </div>
               <div className="mt-5 md:mt-0 ml-3 md:ml-5 flex-1">
                 <div>
