@@ -16,8 +16,8 @@
 <rect x="756.0" y="211" width="101.9794921875" height="28" rx="4" fill="#FFF0C2" stroke="none"/>
 <text x="760.0" y="231" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#795300">ICML 2025</text>
 <text x="858.9794921875" y="231" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#5F7183"></text>
-<text x="760" y="317" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#172C43">Position: Retire the “Positive Backdoor” Label—Secret Alignment Requires Strict</text>
-<text x="760" y="349" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#172C43">and Systematic Evaluation</text>
+<text x="760" y="317" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#172C43">Retire the “Positive Backdoor” Label—Secret Alignment Requires Strict and</text>
+<text x="760" y="349" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#172C43">Systematic Evaluation</text>
 <text x="760" y="380" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#5F7183"></text>
 <text x="760.0" y="380" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#000000">Jianwei Li</text>
 <text x="855.5859375" y="380" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#5F7183">, Jung-Eun Kim</text>
