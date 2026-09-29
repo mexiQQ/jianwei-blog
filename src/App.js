@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Bio from "./components/Bio";
 import ContactInfo from "./components/ContactInfo";
+import ResearchLandscape from "./components/ResearchLandscape";
 import ResearchInterest from "./components/ResearchInterest";
 import News from "./components/News";
 import Preprints from "./components/Preprints";
@@ -30,6 +31,7 @@ function App() {
         <div className="max-w-screen-lg mx-auto px-5 py-10">
           <Bio />
           <ContactInfo />
+          <ResearchLandscape />
           <ResearchInterest />
           <News />
           <Preprints />

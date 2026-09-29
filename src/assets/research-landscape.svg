@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1900" viewBox="0 0 1800 1900" role="img" aria-labelledby="title desc"><title id="title">Research Landscape — Jianwei Li</title><desc id="desc">A thematic map of AI safety and security, AI efficiency. Backdoor research separates protective uses and Secret Alignment evaluation from malicious-backdoor defenses at weight, subspace, and architecture levels.</desc>
+<rect x="0" y="0" width="1800" height="1900" rx="0" fill="#FFFFFF" stroke="none"/>
+<text x="955" y="40" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Superficial Safety Alignment Hypothesis</text>
+<text x="955" y="65" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183"></text>
+<text x="955.0" y="65" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Jianwei Li</text>
+<text x="1031.46875" y="65" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">, Jung-Eun Kim</text>
+<text x="955" y="91" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<rect x="951.0" y="75" width="80.53173828125" height="22" rx="4" fill="#FFF0C2" stroke="none"/>
+<text x="955.0" y="91" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#795300">ICLR 2026</text>
+<text x="1032.53173828125" y="91" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"> · First preprint: 2024</text>
+<text x="955" y="142" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Safety Alignment Can Be Not Superficial With Explicit Safety Signals</text>
+<text x="955" y="167" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183"></text>
+<text x="955.0" y="167" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Jianwei Li</text>
+<text x="1031.46875" y="167" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">, Jung-Eun Kim</text>
+<text x="955" y="193" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<rect x="951.0" y="177" width="82.1943359375" height="22" rx="4" fill="#FFF0C2" stroke="none"/>
+<text x="955.0" y="193" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#795300">ICML 2025</text>
+<text x="1034.1943359375" y="193" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<text x="955" y="269" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Position: Retire the “Positive Backdoor” Label—Secret Alignment Requires Strict</text>
+<text x="955" y="295" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">and Systematic Evaluation</text>
+<text x="955" y="320" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183"></text>
+<text x="955.0" y="320" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Jianwei Li</text>
+<text x="1031.46875" y="320" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">, Jung-Eun Kim</text>
+<text x="955" y="346" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<rect x="951.0" y="330" width="82.1943359375" height="22" rx="4" fill="#FFF0C2" stroke="none"/>
+<text x="955.0" y="346" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#795300">ICML 2026</text>
+<text x="1034.1943359375" y="346" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"> · Position paper</text>
+<text x="955" y="406" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Purifying Generative LLMs from Backdoors without Prior Knowledge or Clean</text>
+<text x="955" y="432" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Reference</text>
+<text x="955" y="457" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183"></text>
+<text x="955.0" y="457" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Jianwei Li</text>
+<text x="1031.46875" y="457" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">, Jung-Eun Kim</text>
+<text x="955" y="483" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183">Weight-level Defense · </text>
+<rect x="1106.89599609375" y="467" width="80.53173828125" height="22" rx="4" fill="#FFF0C2" stroke="none"/>
+<text x="1110.89599609375" y="483" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#795300">ICLR 2026</text>
+<text x="1188.427734375" y="483" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<text x="955" y="533" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection</text>
+<text x="955" y="558" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183"></text>
+<text x="955.0" y="558" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Jianwei Li</text>
+<text x="1031.46875" y="558" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">, Jung-Eun Kim</text>
+<text x="955" y="584" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183">Subspace-level Defense · </text>
+<rect x="1126.927734375" y="568" width="103.888671875" height="22" rx="4" fill="#FFF0C2" stroke="none"/>
+<text x="1130.927734375" y="584" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#795300">NeurIPS 2026</text>
+<text x="1231.81640625" y="584" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<text x="955" y="660" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Not Suppressing or Purifying: Backdoor Containment via Expert Quarantine and</text>
+<text x="955" y="686" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Shutdown in LLMs</text>
+<text x="955" y="711" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183"></text>
+<text x="955.0" y="711" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Jianwei Li</text>
+<text x="1031.46875" y="711" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">, Min-Seon Kim, Jung-Eun Kim</text>
+<text x="955" y="737" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183">Architecture-level Defense · </text>
+<rect x="1140.2431640625" y="721" width="103.888671875" height="22" rx="4" fill="#FFF0C2" stroke="none"/>
+<text x="1144.2431640625" y="737" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#795300">NeurIPS 2026</text>
+<text x="1245.1318359375" y="737" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<text x="955" y="802" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Beyond Gradient and Priors in Privacy Attacks: Leveraging Pooler Layer Inputs of</text>
+<text x="955" y="828" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Language Models in Federated Learning</text>
+<text x="955" y="853" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183"></text>
+<text x="955.0" y="853" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Jianwei Li</text>
+<text x="1031.46875" y="853" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">, Sheng Liu, Qi Lei</text>
+<text x="955" y="879" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183">FL@FM · </text>
+<rect x="1018.7197265625" y="863" width="181.38623046875" height="22" rx="4" fill="#FFF0C2" stroke="none"/>
+<text x="1022.7197265625" y="879" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#795300">NeurIPS 2023 Workshop</text>
+<text x="1201.10595703125" y="879" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"> · Oral</text>
+<text x="955" y="944" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Security Before Safety: A Backdoor-Centric View of LLM Output Risks in the</text>
+<text x="955" y="970" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Private AI Era</text>
+<text x="955" y="995" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183"></text>
+<text x="955.0" y="995" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Jianwei Li</text>
+<text x="1031.46875" y="995" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">, Jung-Eun Kim</text>
+<text x="955" y="1021" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183">Perspective · </text>
+<rect x="1042.69921875" y="1005" width="65.509765625" height="22" rx="4" fill="#FFF0C2" stroke="none"/>
+<text x="1046.69921875" y="1021" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#795300">Preprint</text>
+<text x="1109.208984375" y="1021" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<text x="955" y="1066" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Trustworthy AI: Safety, Bias, and Privacy — A Survey</text>
+<text x="955" y="1091" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">Xingli Fang, </text>
+<text x="1043.9375" y="1091" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Jianwei Li</text>
+<text x="1120.40625" y="1091" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">, Varun Mulchandani, Jung-Eun Kim</text>
+<text x="955" y="1117" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<rect x="951.0" y="1101" width="65.509765625" height="22" rx="4" fill="#FFF0C2" stroke="none"/>
+<text x="955.0" y="1117" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#795300">Preprint</text>
+<text x="1017.509765625" y="1117" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<text x="955" y="1213" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Greedy Output Approximation: Towards Efficient Structured Pruning for LLMs</text>
+<text x="955" y="1239" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Without Retraining</text>
+<text x="955" y="1264" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183"></text>
+<text x="955.0" y="1264" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Jianwei Li</text>
+<text x="1031.46875" y="1264" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">, Yijun Dong, Qi Lei</text>
+<text x="955" y="1290" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<rect x="951.0" y="1274" width="86.369140625" height="22" rx="4" fill="#FFF0C2" stroke="none"/>
+<text x="955.0" y="1290" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#795300">CPAL 2025</text>
+<text x="1038.369140625" y="1290" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<text x="955" y="1355" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Towards Robust Pruning: An Adaptive Knowledge-Retention Pruning Strategy for</text>
+<text x="955" y="1381" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Language Models</text>
+<text x="955" y="1406" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183"></text>
+<text x="955.0" y="1406" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Jianwei Li</text>
+<text x="1031.46875" y="1406" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">, Qi Lei, Wei Cheng, Dongkuan Xu</text>
+<text x="955" y="1432" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<rect x="951.0" y="1416" width="98.03662109375" height="22" rx="4" fill="#FFF0C2" stroke="none"/>
+<text x="955.0" y="1432" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#795300">EMNLP 2023</text>
+<text x="1050.03662109375" y="1432" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<text x="955" y="1497" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Breaking through Deterministic Barriers: Randomized Pruning Mask Generation</text>
+<text x="955" y="1523" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">and Selection</text>
+<text x="955" y="1548" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183"></text>
+<text x="955.0" y="1548" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Jianwei Li</text>
+<text x="1031.46875" y="1548" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">, Weizhi Gao, Qi Lei, Dongkuan Xu</text>
+<text x="955" y="1574" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<rect x="951.0" y="1558" width="183.01953125" height="22" rx="4" fill="#FFF0C2" stroke="none"/>
+<text x="955.0" y="1574" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#795300">Findings of EMNLP 2023</text>
+<text x="1135.01953125" y="1574" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<text x="955" y="1639" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">FP8-BERT: Post-Training Quantization for Transformer</text>
+<text x="955" y="1664" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183"></text>
+<text x="955.0" y="1664" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Jianwei Li</text>
+<text x="1031.46875" y="1664" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">, Tianchi Zhang, Ian En-Hsu Yen, Dongkuan Xu</text>
+<text x="955" y="1690" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183">DCAA · </text>
+<rect x="1006.0048828125" y="1674" width="159.69921875" height="22" rx="4" fill="#FFF0C2" stroke="none"/>
+<text x="1010.0048828125" y="1690" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#795300">AAAI 2023 Workshop</text>
+<text x="1166.7041015625" y="1690" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<text x="955" y="1746" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#172C43">Toward Efficient Traffic Signal Control: Smaller Network Can Do More</text>
+<text x="955" y="1771" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">Shuya Li, Hao Mei, </text>
+<text x="1094.625" y="1771" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Jianwei Li</text>
+<text x="1171.09375" y="1771" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5F7183">, Hua Wei, Dongkuan Xu</text>
+<text x="955" y="1797" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<rect x="951.0" y="1781" width="78.0341796875" height="22" rx="4" fill="#FFF0C2" stroke="none"/>
+<text x="955.0" y="1797" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#795300">CDC 2023</text>
+<text x="1030.0341796875" y="1797" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5F7183"></text>
+<text x="350" y="55.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Fine-tuning</text>
+<text x="350" y="81.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Attack Defense</text>
+<path d="M926 26 C926 26 910 26 910 40.0 C910 47.0 910 47.0 894 61.0 C910 75.0 910 75.0 910 82.0 C910 96 910 96 926 96" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
+<text x="350" y="157.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Jailbreak</text>
+<text x="350" y="183.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Attack Defense</text>
+<path d="M926 128 C926 128 910 128 910 142.0 C910 149.0 910 149.0 894 163.0 C910 177.0 910 177.0 910 184.0 C910 198 910 198 926 198" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
+<text x="620" y="310.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Protective Uses</text>
+<path d="M926 255 C926 255 910 255 910 274.2 C910 283.8 910 283.8 894 303.0 C910 322.2 910 322.2 910 331.8 C910 351 910 351 926 351" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
+<text x="620" y="561.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Malicious</text>
+<text x="620" y="587.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Backdoors</text>
+<path d="M926 392 C926 392 910 392 910 414 C910 545.0 910 545.0 894 567.0 C910 589.0 910 589.0 910 720 C910 742 910 742 926 742" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
+<text x="350" y="492.5" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Backdoor</text>
+<text x="350" y="518.5" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Attack Defense</text>
+<path d="M596 255 C596 255 580 255 580 277 C580 476.5 580 476.5 564 498.5 C580 520.5 580 520.5 580 720 C580 742 580 742 596 742" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
+<text x="350" y="830.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Privacy</text>
+<text x="350" y="856.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Attack Defense</text>
+<path d="M926 788 C926 788 910 788 910 807.2 C910 816.8 910 816.8 894 836.0 C910 855.2 910 855.2 910 864.8 C910 884 910 884 926 884" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
+<text x="350" y="1020.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Perspectives</text>
+<text x="350" y="1046.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">&amp; Surveys</text>
+<path d="M926 930 C926 930 910 930 910 952 C910 1004.0 910 1004.0 894 1026.0 C910 1048.0 910 1048.0 910 1100 C910 1122 910 1122 926 1122" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
+<text x="50" y="568.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">AI Safety</text>
+<text x="50" y="594.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">&amp; Security</text>
+<path d="M324 26 C324 26 308 26 308 48 C308 552.0 308 552.0 292 574.0 C308 596.0 308 596.0 308 1100 C308 1122 308 1122 324 1122" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
+<text x="350" y="1396.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Pruning</text>
+<path d="M926 1199 C926 1199 910 1199 910 1221 C910 1367.0 910 1367.0 894 1389.0 C910 1411.0 910 1411.0 910 1557 C910 1579 910 1579 926 1579" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
+<text x="350" y="1667.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Quantization</text>
+<path d="M926 1625 C926 1625 910 1625 910 1639.0 C910 1646.0 910 1646.0 894 1660.0 C910 1674.0 910 1674.0 910 1681.0 C910 1695 910 1695 926 1695" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
+<text x="350" y="1774.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">Efficient Control</text>
+<path d="M926 1732 C926 1732 910 1732 910 1746.0 C910 1753.0 910 1753.0 894 1767.0 C910 1781.0 910 1781.0 910 1788.0 C910 1802 910 1802 926 1802" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
+<text x="50" y="1507.5" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#173E70">AI Efficiency</text>
+<path d="M324 1199 C324 1199 308 1199 308 1221 C308 1478.5 308 1478.5 292 1500.5 C308 1522.5 308 1522.5 308 1780 C308 1802 308 1802 324 1802" fill="none" stroke="#91A5BA" stroke-width="1.8"/>
+</svg>
