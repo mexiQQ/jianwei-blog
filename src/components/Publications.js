@@ -17,8 +17,30 @@ import {
 } from "../assets/index"; // 路径根据实际调整
 import { useState } from "react";
 import { PaperLinks } from "./PaperLinks";
+import nullSpace from "../assets/null-space-projection.svg";
+import quarantine from "../assets/expert-quarantine.svg";
 
 const publications = [
+  {
+    id: "null-space-projection",
+    img: nullSpace,
+    alt: "LoRA update projected away from backdoor directions while preserving useful adaptation",
+    authors: "Jianwei Li, Jung-Eun Kim",
+    title: "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
+    conf: "NeurIPS 2026",
+    summary: "Project LoRA updates away from backdoor-related feature directions while preserving base capabilities and newly learned skills.",
+    note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-rose-600 px-2 py-0.5 text-sm text-white">Subspace Purification</span></>
+  },
+  {
+    id: "expert-quarantine",
+    img: quarantine,
+    alt: "A router directs behavior to LoRA experts with the quarantine expert disabled at deployment",
+    authors: "Jianwei Li, Min-Seon Kim, Jung-Eun Kim",
+    title: "Not Suppressing or Purifying: Backdoor Containment via Expert Quarantine and Shutdown in LLMs",
+    conf: "NeurIPS 2026",
+    summary: "Channel backdoor behavior into a designated expert during training, then disable that expert at deployment.",
+    note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-rose-600 px-2 py-0.5 text-sm text-white">Architectural Containment</span></>
+  },
   {
     img: secreat,
     authors: "Jianwei Li, Jung-Eun Kim",
@@ -27,35 +49,20 @@ const publications = [
     note: <>Position Paper<span className="ml-3 inline-flex items-center rounded-sm bg-[#5e9b85] px-2 py-0.5 text-sm text-white">Secret Alignment Evaluation</span></>
   },
   {
+    id: "bd-vax",
     img: backdoor,
+    summary: "Identify shared backdoor signatures, neutralize suspicious model components, and restore utility through lightweight fine-tuning.",
     authors: "Jianwei Li, Jung-Eun Kim",
     title: "Purifying Generative LLMs from Backdoors without Prior Knowledge or Clean Reference",
     conf: "ICLR 2026",
     note: (
       <>
         Main Paper
-        <span className="ml-3 inline-flex items-center rounded-sm bg-rose-600 px-2 py-0.5 text-sm text-white">Defense Backdoor Attack</span>
+        <span className="ml-3 inline-flex items-center rounded-sm bg-rose-600 px-2 py-0.5 text-sm text-white">Weight Purification</span>
         <PaperLinks
           pdf="https://openreview.net/pdf?id=M7eWB695jp"
           code="https://github.com/JEKimLab/bd-vax"
           site="https://bd-vax.github.io/"
-        />
-      </>
-    )
-  },
-  {
-    img: ssah2,
-    authors: "Jianwei Li, Jung-Eun Kim",
-    title: "Safety Alignment Can Be Not Superficial With Explicit Safety Signals",
-    conf: "ICML 2025",
-    note: (
-      <>
-        Main Paper
-        <span className="ml-3 inline-flex items-center rounded-sm bg-indigo-600 px-2 py-0.5 text-sm text-white">Defense Jailbreak Attack</span>
-        <PaperLinks
-          pdf="https://arxiv.org/pdf/2505.17072"
-          code="https://github.com/JEKimLab/Safety-Alignment-With-Explicit-Safety-Signal"
-          site="https://sa-ess.github.io/"
         />
       </>
     )
@@ -77,6 +84,23 @@ const publications = [
           pdf="https://arxiv.org/pdf/2410.10862"
           code="https://github.com/JEKimLab/SSAH"
           site="https://ssa-h.github.io/"
+        />
+      </>
+    )
+  },
+  {
+    img: ssah2,
+    authors: "Jianwei Li, Jung-Eun Kim",
+    title: "Safety Alignment Can Be Not Superficial With Explicit Safety Signals",
+    conf: "ICML 2025",
+    note: (
+      <>
+        Main Paper
+        <span className="ml-3 inline-flex items-center rounded-sm bg-indigo-600 px-2 py-0.5 text-sm text-white">Defense Jailbreak Attack</span>
+        <PaperLinks
+          pdf="https://arxiv.org/pdf/2505.17072"
+          code="https://github.com/JEKimLab/Safety-Alignment-With-Explicit-Safety-Signal"
+          site="https://sa-ess.github.io/"
         />
       </>
     )
@@ -163,23 +187,18 @@ const publications = [
 const Publications = () => {
   const [showAll, setShowAll] = useState(false);
 
-  const displayedPubs = showAll ? publications : publications.slice(0, 5);
+  const displayedPubs = showAll ? publications : publications.slice(0, 6);
 
   return (
     <div id="publications" className="scroll-mt-20 mt-10">
       <div className="text-blue-800 text-xl font-bold mb-2">{showAll ? "Publications" : "Selected Publications"}</div>
       {/* 内容部分 */}
-      <div
-        className={`transition-all duration-700 ease-in-out ${
-          showAll ? "max-h-full" : "max-h-[1100px] overflow-hidden"
-        } relative`}
-      >
-      
-        {displayedPubs.map((pub, index) => (
-          <div key={index} className="py-3">
+      <div id="publication-list">
+        {displayedPubs.map((pub) => (
+          <div key={pub.title} id={pub.id} className="py-3 scroll-mt-20">
             <div className="md:flex md:flex-row flex-wrap items-center">
-              <div>
-                <img className="w-full md:w-48 border" src={pub.img} alt="pub" />
+              <div className="md:w-48 md:flex-shrink-0">
+                <img className="w-full md:w-48 border" src={pub.img} alt={pub.alt || pub.title} />
               </div>
               <div className="mt-5 md:mt-0 ml-3 md:ml-5 flex-1">
                 <div>
@@ -194,6 +213,7 @@ const Publications = () => {
                   )}
                 </div>
                 <div className="font-bold">{pub.title}</div>
+                {pub.summary && <p className="mt-1 mb-1 text-sm leading-relaxed text-gray-600">{pub.summary}</p>}
                 <div>{pub.note}</div>
                 <div className="font-semibold">{pub.conf}</div>
               </div>
@@ -201,15 +221,14 @@ const Publications = () => {
           </div>
         ))}
         
-        {/* 底部渐隐遮罩（仅当未展开时显示） */}
-        {!showAll && (
-          <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white via-white/90 to-transparent pointer-events-none"></div>
-        )}
       </div>
 
       {/* 按钮 */}
       <div className="flex justify-center mt-3">
         <button
+          type="button"
+          aria-expanded={showAll}
+          aria-controls="publication-list"
           onClick={() => setShowAll(!showAll)}
           className="flex items-center gap-2 text-gray-500 font-medium hover:text-blue-900 transition"
         >

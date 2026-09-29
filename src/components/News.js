@@ -5,6 +5,13 @@ const News = () => (
       <span className="text-gray-500 italic underline underline-offset-2">Scroll down for more news ↓</span>
       <ul className="list-disc max-h-40 overflow-y-auto pr-2 mt-1">
         <li>
+          [September, 2026] 🎉 <span className="font-semibold">Two papers</span> accepted to{" "}
+          <span className="font-semibold">NeurIPS 2026</span>, exploring backdoor purification via{" "}
+          <a href="#null-space-projection" className="text-blue-800 hover:underline">null-space projection</a>{" "}
+          and backdoor containment through{" "}
+          <a href="#expert-quarantine" className="text-blue-800 hover:underline">expert quarantine and shutdown</a>.
+        </li>
+        <li>
           [July, 2026] 📝 Invited to serve as <span className="font-semibold">Reviewer</span> for{" "}
           <span className="text-black-600 font-semibold">AAAI 2027</span>
         </li>

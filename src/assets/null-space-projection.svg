@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="260" viewBox="0 0 480 260" role="img" aria-labelledby="title desc">
+  <title id="title">Null-space projection</title>
+  <desc id="desc">Remove backdoor-related directions from a LoRA update while preserving useful adaptation.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#475569"/></marker></defs>
+  <rect width="480" height="260" fill="#fafbfc"/>
+  <g font-family="Georgia,serif" text-anchor="middle">
+    <text x="240" y="36" font-size="25" fill="#1e3a8a">Null-Space Projection</text>
+    <path d="M30 188 98 132 176 157 110 213Z" fill="#e0e8f5" stroke="#647b9e" stroke-width="2"/>
+    <path d="M59 177 114 76" stroke="#c64b60" stroke-width="5" marker-end="url(#arrow)"/>
+    <path d="M59 177 139 158" stroke="#375987" stroke-width="5" marker-end="url(#arrow)"/>
+    <path d="M114 78 139 158" stroke="#c64b60" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="104" y="239" font-size="21" fill="#334155">LoRA update</text>
+    <path d="M194 146H274" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="236" y="128" font-size="20" fill="#475569">Project</text>
+    <path d="M300 188 368 132 446 157 380 213Z" fill="#e0e8f5" stroke="#647b9e" stroke-width="2"/>
+    <path d="M329 177 409 158" stroke="#375987" stroke-width="5" marker-end="url(#arrow)"/>
+    <text x="375" y="239" font-size="21" fill="#334155">Purified update</text>
+    <circle cx="140" cy="61" r="5" fill="#c64b60"/><text x="259" y="67" font-size="18" fill="#9f3549">Backdoor direction removed</text>
+  </g>
+</svg>
