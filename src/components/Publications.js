@@ -44,7 +44,7 @@ const publications = [
   {
     img: secreat,
     authors: "Jianwei Li, Jung-Eun Kim",
-    title: "Position: Retire the “Positive Backdoor” Label—Secret Alignment Requires Strict and Systematic Evaluation",
+    title: "Retire the “Positive Backdoor” Label—Secret Alignment Requires Strict and Systematic Evaluation",
     conf: "ICML 2026",
     note: <>Position Paper<span className="ml-3 inline-flex items-center rounded-sm bg-[#5e9b85] px-2 py-0.5 text-sm text-white">Secret Alignment Evaluation</span></>
   },
