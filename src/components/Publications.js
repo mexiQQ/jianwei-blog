@@ -17,28 +17,28 @@ import {
 } from "../assets/index"; // 路径根据实际调整
 import { useState } from "react";
 import { PaperLinks } from "./PaperLinks";
-import nullSpace from "../assets/null-space-projection.svg";
-import quarantine from "../assets/expert-quarantine.svg";
+import nullSpace from "../assets/null-space-projection.png";
+import quarantine from "../assets/expert-quarantine.png";
 
 const publications = [
   {
     id: "null-space-projection",
     img: nullSpace,
-    alt: "LoRA update projected away from backdoor directions while preserving useful adaptation",
+    alt: "Partial null-space projection of a LoRA update",
+    portraitSafe: true,
     authors: "Jianwei Li, Jung-Eun Kim",
     title: "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
     conf: "NeurIPS 2026",
-    summary: "Project LoRA updates away from backdoor-related feature directions while preserving base capabilities and newly learned skills.",
     note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-rose-600 px-2 py-0.5 text-sm text-white">Subspace Purification</span></>
   },
   {
     id: "expert-quarantine",
     img: quarantine,
-    alt: "A router directs behavior to LoRA experts with the quarantine expert disabled at deployment",
+    alt: "QES architecture with routed quarantined and benign LoRA experts",
+    portraitSafe: true,
     authors: "Jianwei Li, Min-Seon Kim, Jung-Eun Kim",
     title: "Not Suppressing or Purifying: Backdoor Containment via Expert Quarantine and Shutdown in LLMs",
     conf: "NeurIPS 2026",
-    summary: "Channel backdoor behavior into a designated expert during training, then disable that expert at deployment.",
     note: <>Main Paper<span className="ml-3 inline-flex items-center rounded-sm bg-rose-600 px-2 py-0.5 text-sm text-white">Architectural Containment</span></>
   },
   {
@@ -51,7 +51,6 @@ const publications = [
   {
     id: "bd-vax",
     img: backdoor,
-    summary: "Identify shared backdoor signatures, neutralize suspicious model components, and restore utility through lightweight fine-tuning.",
     authors: "Jianwei Li, Jung-Eun Kim",
     title: "Purifying Generative LLMs from Backdoors without Prior Knowledge or Clean Reference",
     conf: "ICLR 2026",
@@ -198,7 +197,7 @@ const Publications = () => {
           <div key={pub.title} id={pub.id} className="py-3 scroll-mt-20">
             <div className="md:flex md:flex-row flex-wrap items-center">
               <div className="md:w-48 md:flex-shrink-0">
-                <img className="w-full md:w-48 border" src={pub.img} alt={pub.alt || pub.title} />
+                <img className={pub.portraitSafe ? "block mx-auto max-w-full w-auto h-auto max-h-64 md:max-h-48 object-contain border" : "w-full md:w-48 border"} src={pub.img} alt={pub.alt || pub.title} />
               </div>
               <div className="mt-5 md:mt-0 ml-3 md:ml-5 flex-1">
                 <div>
@@ -213,7 +212,6 @@ const Publications = () => {
                   )}
                 </div>
                 <div className="font-bold">{pub.title}</div>
-                {pub.summary && <p className="mt-1 mb-1 text-sm leading-relaxed text-gray-600">{pub.summary}</p>}
                 <div>{pub.note}</div>
                 <div className="font-semibold">{pub.conf}</div>
               </div>
