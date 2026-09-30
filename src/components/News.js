@@ -5,6 +5,10 @@ const News = () => (
       <span className="text-gray-500 italic underline underline-offset-2">Scroll down for more news ↓</span>
       <ul className="list-disc max-h-40 overflow-y-auto pr-2 mt-1">
         <li>
+          [September, 2026] 📝 Invited to serve as <span className="font-semibold">Reviewer</span> for{" "}
+          <span className="text-black-600 font-semibold">ICLR 2027</span>
+        </li>
+        <li>
           [September, 2026] 🎉 <span className="font-semibold">Two papers</span> accepted to{" "}
           <span className="font-semibold">NeurIPS 2026</span>.
         </li>
