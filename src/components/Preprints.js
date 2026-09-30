@@ -1,4 +1,5 @@
 import React from "react";
+import TopicLabel from "./TopicLabel";
 import { PdfIcon } from "./PaperLinks";
 
 const preprints = [
@@ -6,11 +7,13 @@ const preprints = [
     authors: "Jianwei Li, Jung-Eun Kim",
     title:
       "Security Before Safety: A Backdoor-Centric View of LLM Output Risks in the Private AI Era",
+    topic: "LLM Security Perspective",
     pdf: "https://www.techrxiv.org/doi/full/10.36227/techrxiv.176131355.52592738/v1"
   },
   {
     authors: "Xingli Fang, Jianwei Li, Varun Mulchandani, Jung-Eun Kim",
     title: "Trustworthy AI: Safety, Bias, and Privacy — A Survey",
+    topic: "Trustworthy AI Survey",
     pdf: "https://arxiv.org/abs/2502.10450"
   }
 ];
@@ -31,7 +34,7 @@ const Preprints = () => (
     <div className="text-blue-800 text-xl font-bold mb-2">Preprints</div>
     <div>
       {preprints.map((p, index) => (
-        <div key={index} className="py-0.5">
+        <div key={index} className="py-1.5">
           <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5 text-sm">
             <span>{renderAuthors(p.authors)}</span>
             <span className="font-bold">{p.title}</span>
@@ -46,6 +49,7 @@ const Preprints = () => (
               </a>
             )}
           </div>
+          <div className="mt-1"><TopicLabel tone="safety">{p.topic}</TopicLabel></div>
         </div>
       ))}
     </div>
