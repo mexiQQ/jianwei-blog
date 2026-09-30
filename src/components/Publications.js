@@ -15,7 +15,6 @@ import {
   backdoor,
   secreat
 } from "../assets/index"; // 路径根据实际调整
-import { useState } from "react";
 import { PaperLinks } from "./PaperLinks";
 import nullSpace from "../assets/null-space-projection.png";
 import quarantine from "../assets/expert-quarantine.png";
@@ -184,16 +183,12 @@ const publications = [
 ];
 
 const Publications = () => {
-  const [showAll, setShowAll] = useState(false);
-
-  const displayedPubs = showAll ? publications : publications.slice(0, 6);
-
   return (
     <div id="publications" className="scroll-mt-20 mt-10">
-      <div className="text-blue-800 text-xl font-bold mb-2">{showAll ? "Publications" : "Selected Publications"}</div>
+      <div className="text-blue-800 text-xl font-bold mb-2">Publications</div>
       {/* 内容部分 */}
       <div id="publication-list">
-        {displayedPubs.map((pub) => (
+        {publications.map((pub) => (
           <div key={pub.title} id={pub.id} className="py-3 scroll-mt-20">
             <div className="md:flex md:flex-row flex-wrap items-center">
               <div className="md:w-48 md:flex-shrink-0">
@@ -221,28 +216,6 @@ const Publications = () => {
         
       </div>
 
-      {/* 按钮 */}
-      <div className="flex justify-center mt-3">
-        <button
-          type="button"
-          aria-expanded={showAll}
-          aria-controls="publication-list"
-          onClick={() => setShowAll(!showAll)}
-          className="flex items-center gap-2 text-gray-500 font-medium hover:text-blue-900 transition"
-        >
-          {showAll ? (
-            <>
-              Hide publications
-              <span className="text-lg">↑</span>
-            </>
-          ) : (
-            <>
-              Show all publications
-              <span className="text-lg animate-bounce">↓</span>
-            </>
-          )}
-        </button>
-      </div>
     </div>
   );
 };
