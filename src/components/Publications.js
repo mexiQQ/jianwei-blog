@@ -62,15 +62,13 @@ const publications = [
     conf: "ICLR 2026",
     topic: "Backdoor: Weight Purification",
     topicTone: "weight",
-    note: (
-      <>
-        Main Paper
+    note: <>Main Paper</>,
+    links: (
         <PaperLinks
           pdf="https://openreview.net/pdf?id=M7eWB695jp"
           code="https://github.com/JEKimLab/bd-vax"
           site="https://bd-vax.github.io/"
         />
-      </>
     )
   },
   {
@@ -84,15 +82,13 @@ const publications = [
     ),
     topic: "Defense Fine-tuning Attack",
     topicTone: "safety",
-    note: (
-      <>
-        Main Paper
+    note: <>Main Paper</>,
+    links: (
         <PaperLinks
           pdf="https://arxiv.org/pdf/2410.10862"
           code="https://github.com/JEKimLab/SSAH"
           site="https://ssa-h.github.io/"
         />
-      </>
     )
   },
   {
@@ -102,15 +98,13 @@ const publications = [
     conf: "ICML 2025",
     topic: "Defense Jailbreak Attack",
     topicTone: "safety",
-    note: (
-      <>
-        Main Paper
+    note: <>Main Paper</>,
+    links: (
         <PaperLinks
           pdf="https://arxiv.org/pdf/2505.17072"
           code="https://github.com/JEKimLab/Safety-Alignment-With-Explicit-Safety-Signal"
           site="https://sa-ess.github.io/"
         />
-      </>
     )
   },
   {
@@ -239,8 +233,11 @@ const Publications = () => {
                   )}
                 </div>
                 <div className="font-bold">{pub.title}</div>
-                <div className="mt-1 mb-1"><TopicLabel tone={pub.topicTone}>{pub.topic}</TopicLabel></div>
-                <div>{pub.note}</div>
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+                  <span>{pub.note}</span>
+                  <TopicLabel tone={pub.topicTone} textColor="#000000">{pub.topic}</TopicLabel>
+                </div>
+                {pub.links}
                 <div className="font-semibold">{pub.conf}</div>
               </div>
             </div>
