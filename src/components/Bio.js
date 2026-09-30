@@ -23,7 +23,7 @@ const Bio = () => {
       {/* <p className="mt-1">
         I am also actively looking for the collabrating opportunities in the feild of <span className="text-red-600">AI Safety</span> and <span className="text-red-600">Efficient AI</span> from Industry, especially the direction of <span className="text-red-600">Shadow LLM</span>.
       </p> */}
-      <p className="mt-6"><a className="text-blue-800 hover:underline" href="https://drive.google.com/file/d/16Q0pZ-b4VdBA35YY9vv8HfbW43WxXhP6/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a> / <a className="text-blue-800" href="https://scholar.google.com/citations?user=6lFRe2MAAAAJ&hl=en&authuser=2">Google Scholar</a> / <a className="text-blue-800" href="https://github.com/mexiQQ" target="_blank" rel="noopener noreferrer">GitHub</a> / <a className="text-blue-800" href="https://www.linkedin.com/in/fourteenljw">LinkedIn</a> / <a className="text-blue-800" href="https://twitter.com/ljw040426">Twitter</a></p>
+      <p className="mt-6"><a className="text-blue-800 hover:underline" href="https://drive.google.com/file/d/16Q0pZ-b4VdBA35YY9vv8HfbW43WxXhP6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a> / <a className="text-blue-800" href="https://scholar.google.com/citations?user=6lFRe2MAAAAJ&hl=en&authuser=2">Google Scholar</a> / <a className="text-blue-800" href="https://github.com/mexiQQ" target="_blank" rel="noopener noreferrer">GitHub</a> / <a className="text-blue-800" href="https://www.linkedin.com/in/fourteenljw">LinkedIn</a> / <a className="text-blue-800" href="https://twitter.com/ljw040426">Twitter</a></p>
 
       <p className="mt-1"><a className="text-gray-400" href="https://shadow-llm.com/" target="blank">Shadow LLM Guardians</a></p>
     </div>
