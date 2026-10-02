@@ -26,11 +26,11 @@ export const SiteIcon = () => (
 
 const linkClass = "inline-flex items-center gap-1 text-gray-800 hover:underline";
 
-export const PaperLinks = ({ pdf, code, site, inline = false }) => (
+export const PaperLinks = ({ pdf, code, site, inline = false, pdfLabel = "PDF" }) => (
   <span className={(inline ? "inline-flex" : "mt-1 flex") + " flex-wrap items-center gap-x-3 gap-y-1 text-sm"}>
     {pdf && (
       <a href={pdf} target="_blank" rel="noopener noreferrer" className={linkClass}>
-        <PdfIcon /> <span>PDF</span>
+        <PdfIcon /> <span>{pdfLabel}</span>
       </a>
     )}
     {code && (

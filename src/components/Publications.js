@@ -31,7 +31,8 @@ const publications = [
     conf: "NeurIPS 2026",
     topic: "Backdoor: Subspace Purification",
     topicTone: "subspace",
-    note: <>Main Paper</>
+    note: <>Main Paper</>,
+    links: <PaperLinks pdf="https://arxiv.org/pdf/2610.00685" pdfLabel="PDF" />
   },
   {
     id: "expert-quarantine",
@@ -43,7 +44,8 @@ const publications = [
     conf: "NeurIPS 2026",
     topic: "Backdoor: Architectural Containment",
     topicTone: "architecture",
-    note: <>Main Paper</>
+    note: <>Main Paper</>,
+    links: <PaperLinks pdf="https://arxiv.org/pdf/2610.00663" pdfLabel="PDF" />
   },
   {
     img: secreat,
@@ -52,7 +54,8 @@ const publications = [
     conf: "ICML 2026",
     topic: "Secret Alignment Evaluation",
     topicTone: "safety",
-    note: <>Position Paper</>
+    note: <>Position Paper</>,
+    links: <PaperLinks pdf="https://arxiv.org/abs/2605.28597" pdfLabel="arXiv" />
   },
   {
     id: "bd-vax",
@@ -65,7 +68,8 @@ const publications = [
     note: <>Main Paper</>,
     links: (
         <PaperLinks
-          pdf="https://openreview.net/pdf?id=M7eWB695jp"
+          pdf="https://arxiv.org/abs/2603.13461"
+          pdfLabel="arXiv"
           code="https://github.com/JEKimLab/bd-vax"
           site="https://bd-vax.github.io/"
         />
