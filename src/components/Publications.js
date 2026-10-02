@@ -55,7 +55,7 @@ const publications = [
     topic: "Secret Alignment Evaluation",
     topicTone: "safety",
     note: <>Position Paper</>,
-    links: <PaperLinks pdf="https://arxiv.org/abs/2605.28597" pdfLabel="PDF" />
+    links: <PaperLinks pdf="https://arxiv.org/pdf/2605.28597" pdfLabel="PDF" />
   },
   {
     id: "bd-vax",
@@ -68,7 +68,7 @@ const publications = [
     note: <>Main Paper</>,
     links: (
         <PaperLinks
-          pdf="https://arxiv.org/abs/2603.13461"
+          pdf="https://arxiv.org/pdf/2603.13461"
           pdfLabel="PDF"
           code="https://github.com/JEKimLab/bd-vax"
           site="https://bd-vax.github.io/"
